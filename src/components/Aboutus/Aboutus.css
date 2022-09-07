@@ -1,0 +1,127 @@
+.aboutmainimage{
+    width: 100%;
+}
+.abouttext1{
+    
+    
+    position: absolute;
+    
+    margin-top: -19%;
+    margin-left: 10%;
+    font-family: 'Barlow Condensed';
+    
+    font-weight: 400;
+    font-size:2.5vw;
+    
+    color: #FFFFFF;
+       
+}
+.abouttext2{
+    
+
+
+position: absolute;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 6.2vw;
+ 
+margin-top: -18%;
+margin-left: 10%;
+
+display: flex;
+align-items: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+       
+}
+.abouttext3{
+    
+    
+    
+    position: absolute;
+     
+    margin-top: -11%;
+    margin-left: 10%;
+   
+text-align: left;    
+    /* Body */
+    
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    
+    color: #FFFFFF;
+               
+    }
+
+    .aboutcontanier2{
+        margin-top: 2%;
+    }
+    .columnabout1 {
+        float: left;
+        width: 20%;
+      }
+      
+    .columnabout2 {
+        float: left;
+        width: 80%;
+
+      }
+      /* Clearfix (clear floats) */
+      .rowabout::after {
+        content: "";
+        clear: both;
+        display: table;
+
+      }
+  .aboutimage2{
+    width: 170%;
+  }    
+  .columnabouttext1{
+ text-align: left;
+    margin-top: 10.5%;
+    margin-left: 23%;
+          font-weight: 700;
+       font-family: 'Raleway',sans-serif;
+       font-size: 4.5vw;
+       color: #253759;
+  }
+  .columnabouttext2{
+    font-family: 'Barlow Condensed';
+
+    text-align: left;
+       margin-left: 23%;
+             font-weight: 400;
+          font-size: 1.7vw;
+          color: #000000;
+             }
+.columnabouttext3{
+  font-family: 'Raleway',sans-serif;
+          margin-top: 5%;
+text-align: left;
+margin-left: 23%;
+ font-weight: 700;
+font-size: 2.5vw;
+color: #253759;
+   }
+   .columnabouttext4{
+    font-family: 'Barlow Condensed';
+
+    text-align: left;
+       margin-left: 23%;
+             font-weight: 400;
+          font-size: 1.9vw;
+          color: #000000;
+             }
+hr.aboutline {
+  margin-top: 4%;
+border: 3px solid rgba(217, 4, 61, 1);
+width: 40%;
+margin-left: 24%;
+}
+            

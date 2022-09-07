@@ -1,0 +1,19 @@
+<div className='fcontainer'>
+    <i className='fa fa-facebook-official blue-color' style={{fontSize: "2.3vw",marginTop:"9%",marginLeft:"10%",position:"absolute"}}></i>
+    <i className='fa fa-instagram blue-color' style={{fontSize: "2.3vw",marginTop:"9%",marginLeft:"15%",position:"absolute"}}></i>
+    <i className='fa fa-linkedin-square blue-color' style={{fontSize: "2.3vw",marginTop:"9%",marginLeft:"20%",position:"absolute"}}></i>
+    <i className='fa fa-twitter blue-color' style={{fontSize: "2.3vw",marginTop:"9%",marginLeft:"25%",position:"absolute"}}></i>
+    
+    <img className='footerimg' src={footer} alt='image'/> 
+    <p className='letstalk'>Intrested,</p>
+    <p className='talk'>Let’s Talk?</p>
+    <div className='make'><a data-toggle="modal" data-target="#myModal" className='make2'>Make An Enquiry!</a></div>
+   </div>
+  
+
+   ///
+   <button className='viewall'>
+   
+    <p  className='vtext'>View All Services</p>
+    <img className='view' src={clogo} alt='c2logo'/> 
+ </button>

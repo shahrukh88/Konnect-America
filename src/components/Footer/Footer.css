@@ -1,0 +1,163 @@
+.fcontainer{
+    position: relative;
+}
+.footerimg{
+  margin-top: -.3%;
+    width: 100%;
+ 
+}
+.blue-color {
+    color: #fff;
+
+}
+.letstalk{
+    margin-top: -14%;
+    font-family: 'Raleway',sans-serif;
+    
+    font-size: 1.8vw;
+    font-weight: 700;
+   text-align: center;
+   color:  rgba(255, 255, 255, 1);
+}
+.talk{
+    
+    font-family: 'Raleway',sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+   text-align: center;
+   color:  rgba(255, 255, 255, 1);
+}
+.make{
+
+    position: absolute;
+    width: 17vw;
+    margin-top: -6%;
+    font-family: 'Raleway',sans-serif;
+    margin-left: 69%;
+    font-size: 1.4vw;
+    font-weight: 700;
+    padding: .8%;
+   text-align: center;
+   color:  rgba(255, 255, 255, 1);
+   background-color: #253759;
+
+}
+.make2{
+    text-decoration: none;
+    color:  rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.make2:hover{
+    text-decoration: none;
+}
+.fbelow{
+    position: relative;
+    margin-top: 4.2%;
+    width: 100%;
+    padding-bottom: 7%;
+    background-color: #253759 ;
+}
+.fbelowtxt{
+    position: absolute;
+    font-family: 'Barlow Condensed',sans-serif;
+    text-align: left;
+    margin-top: 3.2%;
+    margin-left: 9.5%;
+    font-size: 1vw;
+    font-weight: 400;
+    color:  rgba(255, 255, 255, 1);
+
+}
+.fbelowtxt2{
+
+    position: absolute;
+    font-family: 'Raleway',sans-serif;
+     text-align: left;
+    margin-top: 2.3%;
+    margin-left: 76%;
+    font-size: 1vw;
+    font-weight: 700;
+    color:  rgba(255, 255, 255, 1);
+
+}
+.fbelowtxt3{
+
+    position: absolute;
+    font-family: 'Barlow Condensed',sans-serif;
+     text-align: left;
+    margin-top: 3.5%;
+    margin-left: 76%;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color:  rgba(255, 255, 255, 1);
+text-decoration: none;
+}
+@media only screen and (max-width: 750px) {
+    .footerimg{
+        margin-top: -.3%;
+          width: 100%;
+       
+      }
+    .letstalk{
+         font-family: 'Raleway',sans-serif;
+        
+        font-size: 3vw;
+margin-top: -17%;
+         }
+    .talk{
+        
+        font-size: 6vw;
+        font-weight: 700;
+        margin-top: -4%;
+        margin-bottom: 6%;
+      }
+    .make{
+    
+        width: 25vw;
+        margin-top: -14%;
+        margin-left: 69%;
+        font-size: 2.5vw;
+
+    
+    }
+    .make2{
+        text-decoration: none;
+        color:  rgba(255, 255, 255, 1);
+      cursor: pointer;
+    }
+    .make2:hover{
+        text-decoration: none;
+    }
+    .fbelow{
+        position: relative;
+        margin-top: -4%;
+        width: 100%;
+        padding-bottom: 10%;
+        background-color: #253759 ;
+    }
+    .fbelowtxt{
+        margin-top: 4.2%;
+        margin-left: 9.5%;
+        font-size: 1.5vw;
+       
+    }
+    .fbelowtxt2{
+    
+        margin-top: 2.3%;
+        margin-left: 77%;
+        font-size: 1.7vw;
+       
+    }
+    .fbelowtxt3{
+    
+        position: absolute;
+        font-family: 'Barlow Condensed',sans-serif;
+         text-align: left;
+        margin-top: 5%;
+        margin-left: 75.7%;
+        font-size: 3vw;
+        font-weight: 400;
+        color:  rgba(255, 255, 255, 1);
+    text-decoration: none;
+    }
+}

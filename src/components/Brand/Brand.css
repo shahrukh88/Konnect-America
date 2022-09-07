@@ -1,0 +1,280 @@
+@font-face {
+    font-family: Bebas;
+    src: url("../Landingpage/BebasNeue/Commercial/TTF/BebasNeue-Regular.ttf");
+  }
+.brandtext1{
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 6%;
+        font-weight: 700;
+        font-size: 2.1vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(217, 4, 61, 1);
+    
+
+}
+.brandtext2{
+    position: absolute;
+    margin-left: 18.5%;
+    margin-top: 8.5%;
+        font-weight: 600;
+        font-size: 1.3vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(37, 55, 89, 1)
+          ;
+    
+
+}
+.brandtext3{
+    position: absolute;
+    margin-left: 17.2%;
+    margin-top: 10.2%;
+        font-weight: 500;
+        font-size: 1vw;
+        font-family: 'Barlow Condensed',sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(37, 55, 89, 1)
+          ;
+    
+
+}
+.brandtext11{
+    position: absolute;
+    margin-left: 46.7%;
+    margin-top: 5%;
+        font-weight: 700;
+        font-size: 2.8vw;
+        font-family: bebas,sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(217, 4, 61, 1);
+    
+
+}
+.brandtext22{
+    position: absolute;
+    margin-left: 43.5%;
+    margin-top: 8.5%;
+        font-weight: 600;
+        font-size: 1.3vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(37, 55, 89, 1)
+          ;
+    
+
+}
+.brandtext33{
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 10.2%;
+        font-weight: 500;
+        font-size: 1vw;
+        font-family: 'Barlow Condensed',sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(37, 55, 89, 1)
+          ;
+    
+
+}
+.brandtext111{
+    position: absolute;
+    margin-left: 71%;
+     margin-top: 5%;
+        font-weight: 700;
+        font-size: 2.8vw;
+        font-family: bebas,sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(217, 4, 61, 1);
+    
+
+}
+.brandtext222{
+    position: absolute;
+    margin-left: 68%;
+    margin-top: 8.5%;
+        font-weight: 600;
+        font-size: 1.3vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(37, 55, 89, 1)
+          ;
+    
+
+}
+.brandtext333{
+    position: absolute;
+    margin-left: 66.7%;
+    margin-top: 10.2%;
+        font-weight: 500;
+        font-size: 1vw;
+        font-family: 'Barlow Condensed',sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(37, 55, 89, 1)
+          ;
+    
+
+}
+.info1{
+    margin-left: 18%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.2vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+.infobrand3text1{
+    margin-left: 8%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.2vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+
+.info2{
+    margin-left: 25%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.2vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+.info2one{
+    margin-left: 10%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.2vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+.info3{
+    margin-left: 32%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.2vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+.info3one{
+    margin-left: 28%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.2vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+.info3onebrand{
+    margin-left: 18%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.2vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+.info4{
+    margin-left: 44%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.2vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+.info4one{
+    margin-left: 43%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.2vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+.info4brand3{
+    margin-left: 33%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.2vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}               
+hr.brandline {
+    position: absolute;
+    margin-left: 10%;
+    width: 80%;
+    border: 2px solid rgba(217, 4, 61, 1) ;
+    
+    margin-top: 19%;
+  }
+  .arrowright{
+position: absolute;
+width: 2.5%;
+margin-top: 8.3%;
+margin-left: 35%;
+  }
+  .arrowright2{
+    position: absolute;
+    width: 2.5%;
+    margin-top: 8.3%;
+    margin-left: 60%;
+      }
+      .brandlast{
+        margin-top: -3%;
+      }

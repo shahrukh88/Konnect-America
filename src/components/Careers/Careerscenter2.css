@@ -1,0 +1,129 @@
+.carrercenter2{
+margin-top: 8%;
+}
+.carrercentertext1{
+    text-align: center;
+   font-family: 'Raleway',sans-serif;
+    margin-top: 3%;
+                  
+    font-size: 3.5vw;
+    font-weight: 700;
+    color: #253759;  
+  
+}
+.carrercentertext2{
+    text-align: center;
+    font-family: 'Barlow Condensed';
+                  
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #000000;  
+  
+}
+.careerimage1{
+    position: absolute;
+    margin-left: 10%;
+    width: 22%;
+    margin-top: 3%;
+}
+.careerimage2{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 10%;
+    width: 22%;
+}
+.careerimage3{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 33.5%;
+    width: 30%;
+    margin-top: 3%;
+}
+.careercentertext3{
+    position: absolute;
+    font-family: bebas,sans-serif;
+       margin-left: 66%;
+       margin-top: 10%;           
+    font-size:4vw;
+    font-weight: 400;
+    color: #253759; 
+}
+.careercentertext4{
+    position: absolute;
+    font-family: 'Barlow Condensed';
+    text-align: left;
+    margin-left: 66%;
+       margin-top: 15%;           
+    font-size:1vw;
+    font-weight: 400;
+    color: #000000;}
+    hr.carrerline2 {
+        position: absolute;
+        margin-left: 66%;
+        width: 10%;
+        border: 2px solid rgba(217, 4, 61, 1) ;
+        
+        margin-top: 18.5%;
+      }
+
+      .careercentertext33{
+        position: absolute;
+        font-family: bebas,sans-serif;
+           margin-left: 66%;
+           margin-top: 22%;           
+        font-size:4vw;
+        font-weight: 400;
+        color: #253759; 
+    }
+    .careercentertext44{
+        position: absolute;
+        font-family: 'Barlow Condensed';
+        text-align: left;
+        margin-left: 66%;
+           margin-top: 27%;           
+        font-size:1vw;
+        font-weight: 400;
+        color: #000000;}
+        hr.carrerline22 {
+            position: absolute;
+            margin-left: 66%;
+            width: 10%;
+            border: 2px solid rgba(217, 4, 61, 1) ;
+            
+            margin-top: 30.5%;
+          }    
+
+          .careercentertext333{
+            position: absolute;
+            font-family: bebas,sans-serif;
+               margin-left: 66%;
+               margin-top: 34%;           
+            font-size:4vw;
+            font-weight: 400;
+            color: #253759; 
+        }
+        .careercentertext444{
+            position: absolute;
+            font-family: 'Barlow Condensed';
+            text-align: left;
+            margin-left: 66%;
+               margin-top: 39%;           
+            font-size:1vw;
+            font-weight: 400;
+            color: #000000;}
+            hr.carrerline222 {
+                position: absolute;
+                margin-left: 66%;
+                width: 10%;
+                border: 2px solid rgba(217, 4, 61, 1) ;
+                
+                margin-top: 42.5%;
+              }         
+              hr.carrerline3 {
+                position: absolute;
+                margin-left: 10%;
+                width: 80%;
+                border: 2px solid rgba(217, 4, 61, 1) ;
+                
+                margin-top: 52%;
+              }  

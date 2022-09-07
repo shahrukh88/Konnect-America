@@ -1,0 +1,111 @@
+.aboutlast{
+margin-top: 5%;
+width:65%;
+margin-left: 18.5%;
+ color: #FFFFFF;
+ background: #D9043D;
+ padding: 1.5%;   
+}
+.aboutimage7{
+    position: absolute;
+    margin-top: .8%;
+    width: 5%;
+    margin-left: -29%;
+}
+.aboutlasttext1{
+    font-family: 'Barlow Condensed';
+
+    color: #FFFFFF;
+    font-size: 2vw;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 15%;
+}
+.aboutlasttext2{
+    font-family: 'Barlow Condensed';
+
+    color: #FFFFFF;
+    font-size: 1.4vw;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 15%;
+}
+.aboutlasttext3{
+    font-family: 'Barlow Condensed';
+
+    color: #FFFFFF;
+    font-size: .8vw;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 15%;
+}
+
+hr.aboutline5 {
+    margin-top: 7%;
+  border: 3px solid rgba(217, 4, 61, 1);
+  width: 80%;
+  margin-left: 10%;
+  }
+  
+  .columnfinal {
+    float: left;
+    width: 50%;
+    }
+  
+  /* Clear floats after the columns */
+  .rowfinal:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .aboutfinal1{
+    font-family: 'Barlow Condensed';
+margin-top: 0%;
+    color: rgba(37, 55, 89, 1) ;
+    font-size: 2vw;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 13%;
+  }
+  .aboutfinal2{
+    font-family: 'Raleway',sans-serif;
+    margin-top: -4%;
+    color: rgba(37, 55, 89, 1) ;
+    font-size: 4.48vw;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 13%;
+  }
+  .aboutfinal22{
+    font-family: 'Raleway',sans-serif;
+    margin-top: -5%;
+    color: rgba(37, 55, 89, 1) ;
+    font-size: 4.48vw;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 13%;
+  }
+  .aboutfinal3{
+    font-family: 'Barlow Condensed';
+    margin-top: 2%;
+    color: rgba(37, 55, 89, 1) ;
+    font-size: 2vw;
+    font-weight: 600;
+    text-align: right;
+    margin-right: 5%;
+    }
+    .aboutfinal4{
+        font-family: 'Barlow Condensed';
+        margin-top: -2.5%;
+        color: rgba(37, 55, 89, 1) ;
+        font-size: 1.9vw;
+        font-weight: 400;
+        text-align: right;
+        margin-right: 5%;
+        }
+        .map{
+          margin-right: 5%;
+            margin-top: 4%;
+            width: 85%;
+            height: 50vh;
+        }

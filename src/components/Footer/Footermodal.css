@@ -1,0 +1,115 @@
+.modal-dialog{
+    width:100%;
+    margin-top: 0%;
+    }
+.modaltext1{
+    font-family: 'Raleway',sans-serif;
+    text-align: left;
+   margin-top: 2.3%;
+   margin-left: 20%;
+   font-size: 2vw;
+   font-weight: 700;
+   color:rgba(37, 55, 89, 1);  
+}
+.modaltext2{
+    font-family: 'Raleway',sans-serif;
+    text-align: left;
+    margin-top: -1.8%;
+   margin-left: 20%;
+   font-size: 3.5vw;
+   font-weight: 700;
+   color:rgba(37, 55, 89, 1);  
+}
+.modaltext3{
+    font-family: 'Barlow Condensed',sans-serif;
+    text-align: left;
+    margin-top: -1.4%;
+   margin-left: 20%;
+   font-size: 1.3vw;
+   font-weight: 400;
+   color: rgba(37, 55, 89, 1);
+}
+
+.fnametext{
+margin-left: 1%;
+font-family: 'Raleway',sans-serif;
+margin-top: 1%;
+
+font-size: 1vw;
+font-weight: 600;
+color: #D9043D;  
+}
+.fnametext2{
+    margin-left: 1%;
+    font-family: 'Raleway',sans-serif;
+    margin-top: 1%;
+    
+    font-size: 1vw;
+    font-weight: 600;
+    color: #D9043D;  
+    }
+    .fnametext3{
+        margin-left: 1%;
+        font-family: 'Raleway',sans-serif;
+        margin-top: 1%;
+        
+        font-size: 1vw;
+        font-weight: 600;
+        color: #D9043D;  
+        }
+        
+    .fnametext4{
+        margin-left: 1%;
+        font-family: 'Raleway',sans-serif;
+        margin-top: 1%;
+        
+        font-size: 1vw;
+        font-weight: 600;
+        color: #D9043D;  
+        }
+input[type=text], select, textarea {
+    width: 76%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+width: 25%;
+    background: #D9043D;
+        font-family: 'Raleway',sans-serif;
+
+    color: white;
+    font-size: 1.3vw;
+    padding: 8px 20px;
+    border: none;
+     cursor: pointer;
+    margin-left: 51.3%;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.4;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .close2{
+    color: #D9043D;
+    width: 2%;
+    margin-top: 6%;
+  margin-left: 80%;
+  cursor: pointer;
+  }
+  .close2:hover{
+    opacity: 0.5;
+  }
+  .modalform{
+    margin-left: 20%;
+  }

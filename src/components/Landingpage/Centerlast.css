@@ -1,0 +1,297 @@
+@font-face {
+    font-family: Bebas;
+    src: url("./BebasNeue/Commercial/TTF/BebasNeue-Regular.ttf");
+  }
+.centerlast{
+  
+}
+.viewall{
+    font-family: 'Raleway',sans-serif;
+    margin-left: 44%;
+    font-weight: 600;
+    width: 15.5vw;
+    margin-top: 2%;
+color: white;
+    cursor: pointer;
+    background-color: #fff;
+    padding-top: .6%;
+    margin-bottom: -13%;
+}
+.vtext{
+  font-size: 1vw;
+  font-weight: 700;
+  
+}
+.view{
+    position: absolute;
+    margin-top: -2.1%;
+    margin-left: 5%;
+    width: .8%;
+    transform: rotate(-360deg);
+}
+.work{
+    margin-top: 2%;
+    font-family: 'Raleway',sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+   text-align: center;
+   color:  rgba(37, 55, 89, 1);
+   
+}
+.work2{
+  margin-top: -2%;
+  font-family: 'Raleway',sans-serif;
+  font-size: 4vw;
+  font-weight: 700;
+ text-align: center;
+ color:  rgba(37, 55, 89, 1);
+ 
+}
+.fuel{
+    font-family: 'Barlow Condensed',sans-serif;
+margin-top: -1%;
+    font-size: 1.8vw;
+    font-weight: 500;
+   text-align: center;
+   color:  #343434;
+    
+}
+.float6-container6{
+margin-top: 3%;
+    width: 100%;
+    clear: both;
+
+  }
+  .float6-child6{
+    width: 33%;
+    float: left;
+     
+  }
+  .x3{
+    font-family: bebas,sans-serif;
+   margin-left: 45%;
+    font-size: 8vw;
+    font-weight: 700;
+   text-align: center;
+   color:  #D9043D;
+    
+  }
+  .x33{
+    font-family: bebas,sans-serif;
+   margin-left: -10%;
+    font-size: 8vw;
+    font-weight: 700;
+   text-align: center;
+   color:  #D9043D;
+    
+  }
+  .x333{
+    font-family: bebas,sans-serif;
+   margin-left: -50%;
+    font-size: 8vw;
+    font-weight: 700;
+   text-align: center;
+   color:  #D9043D;
+    
+  }
+  .member{
+ 
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.8vw;
+    font-weight: 700;
+   text-align: center;
+   color:  #253759; 
+   margin-top: -8%;
+   margin-left: 44%;  
+}
+
+.member2{
+ 
+  font-family: 'Raleway',sans-serif;
+  font-size: 1.8vw;
+  font-weight: 700;
+ text-align: center;
+ color:  #253759; 
+ margin-top: -8%;
+ margin-left: -10%;  
+}
+
+.member3{
+ 
+  font-family: 'Raleway',sans-serif;
+  font-size: 1.8vw;
+  font-weight: 700;
+ text-align: center;
+ color:  #253759; 
+ margin-top: -8%;
+ margin-left: -48%;  
+}
+.centerlast{
+  position: relative;
+
+}
+.centerimg{
+  position: relative;
+  margin-top: 5%;
+  width: 100%;
+  
+}
+.priority{
+ position: absolute;
+opacity: 80%;
+ margin-left: 19%;
+ margin-top: -24%;
+ width: 60%;
+ padding: 1%;
+padding-bottom: 2%;
+background-color: #D9043D;
+}
+.pri{
+  
+  font-family: 'Raleway',sans-serif;
+  margin-left: -40%;
+  margin-top: 2%;
+  font-size: 2.3vw;
+  font-weight: 700;
+  opacity: 100%;
+ text-align: center;
+ color:  rgba(255, 255, 255, 1);
+}
+.pri2{
+  
+  font-family: 'Barlow Condensed',sans-serif;
+padding-top: .3%;
+  padding-left: 5.5%;
+  font-size: 1.8vw;
+  font-weight: 400;
+ text-align: left;
+ margin-top: -1%;
+ color:  rgba(255, 255, 255, 1);
+}
+.quoatation{
+  position: absolute;
+   width: 5%;
+margin-left: 2%;
+margin-top: 3%;
+
+}
+@media only screen and (max-width: 750px) {
+  .viewall{
+    width: 2vw;
+    margin-top: 2%;
+    margin-left: -20%;
+    padding-top: 2.5%;
+    margin-bottom:-35% ;
+    color: white;
+ }
+  .vtext{
+    font-size: 3vw;
+    
+  }
+  .view{
+    margin-top: -6.6%;
+    margin-left: 14%;
+    width: 2%;
+    transform: rotate(-360deg);
+}
+
+.work{
+  padding-top: 40%;
+   font-size: 6.3vw;
+ 
+}
+.work2{
+ 
+   font-size: 6.3vw;
+ 
+}
+.fuel{
+ margin-top: -1%;
+  font-size: 2.5vw;
+  
+}
+.x3{
+  margin-left: 28%;
+  font-size: 15vw;
+  
+}
+.x33{
+
+ margin-left: -8%;
+  font-size: 15vw;
+
+}
+.x333{
+
+ margin-left: -38%;
+  font-size: 15vw;
+
+  
+}
+.member{
+
+   font-size: 2.4vw;
+   margin-top: -18%;
+ margin-left: 27%;  
+}
+
+.member2{
+
+
+font-size: 2.4vw;
+margin-top: -18%;
+margin-left: -10%;  
+}
+
+.member3{
+
+
+font-size: 2.4vw;
+
+margin-top: -18%;
+margin-left: -38%;  
+}
+.centerlast{
+position: relative;
+
+}
+.centerimg{
+position: relative;
+margin-top: 5%;
+width: 100%;
+
+
+}
+.priority{
+
+margin-left: 5%;
+margin-top: -28.8%;
+width: 90%;
+
+}
+.pri{
+
+
+margin-left: -28%;
+margin-top: 2.8%;
+font-size: 4vw;
+
+
+}
+.pri2{
+
+
+padding-top: .2%;
+padding-left: 5.5%;
+font-size: 2.8vw;
+
+margin-top: -4%;
+}
+.quoatation{
+position: absolute;
+ width: 5%;
+margin-left: 2%;
+margin-top: 4%;
+
+}
+}

@@ -1,0 +1,195 @@
+.market-column {
+    float: left;
+    width: 50%;
+    }
+  
+  /* Clear floats after the columns */
+  .market-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .Market-center2{
+    margin-top: 4%;
+  }
+  .marketctext1{
+    margin-left: 25.5%;
+margin-top: 18%;
+  font-weight: 700;
+  font-family: 'Raleway',sans-serif;
+  font-size: 1.6vw;
+    text-align: left;
+    color:rgba(217, 4, 61, 1);
+
+}
+.marketctext1a{
+  margin-left: 25.5%;
+margin-top: 13%;
+font-weight: 700;
+font-family: 'Raleway',sans-serif;
+font-size: 1.6vw;
+  text-align: left;
+  color:rgba(217, 4, 61, 1);
+
+}
+.marketctext1b{
+  margin-left: 25.5%;
+margin-top: 12%;
+font-weight: 700;
+font-family: 'Raleway',sans-serif;
+font-size: 1.6vw;
+  text-align: left;
+  color:rgba(217, 4, 61, 1);
+
+}
+.marketctext2{
+     margin-top: -2%;
+      font-weight: 700;
+      margin-left: 25.5%;
+      font-family: 'Raleway',sans-serif;
+      font-size: 3vw;
+        text-align: left;
+        color: #253759;
+    
+    }
+    .marketctext2a{
+      margin-top: -4%;
+       font-weight: 700;
+       margin-left: 25.5%;
+       font-family: 'Raleway',sans-serif;
+       font-size: 3vw;
+         text-align: left;
+         color: #253759;
+     
+     }
+    
+.marketctext3{
+  margin-top: -2%;
+   
+  font-weight: 400;
+  margin-left: 25.5%;
+  font-family: 'Barlow Condensed',sans-serif;
+  font-size: 1.2vw;
+    text-align: left;
+    color: rgba(52, 52, 52, 1)
+    ;
+
+}
+.marketcbutton1{
+  margin-left: 25.5%;
+  margin-top: 2%;
+  font-weight: 500;
+  font-family: 'Raleway',sans-serif;
+  font-size: 1.2vw;
+  padding-top: .8%;
+  padding-bottom: .8%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+    text-align: center;
+    color: #fff;;
+    background: #D9043D;
+    width: 20%;
+    cursor: pointer;
+}
+.envlop{
+  margin-top: 8%;
+  width: 60%;
+  margin-left: 15%;
+}
+hr.marketline {
+  position: absolute;
+  margin-top: 30%;
+  border: 2px solid rgba(217, 4, 61, 1);
+width: 83%;
+margin-left: 8%;
+}
+.Market-center3{
+  margin-top: 7%;
+}
+.marketctext11{
+  margin-right: 20%;
+margin-top: 8%;
+font-weight: 700;
+font-family: 'Raleway',sans-serif;
+font-size: 1.6vw;
+  text-align: right;
+  color:rgba(217, 4, 61, 1)
+  ;
+
+}
+.marketctext22{
+  margin-top: -2%;
+margin-right: 20%;
+    font-weight: 700;
+    font-family: 'Raleway',sans-serif;
+    font-size: 3vw;
+      text-align: right;
+      color: #253759;
+  
+  }
+  .marketctext22a{
+    margin-top: -3.5%;
+  margin-right: 20%;
+      font-weight: 700;
+      font-family: 'Raleway',sans-serif;
+      font-size: 3vw;
+        text-align: right;
+        color: #253759;
+    
+    }
+  
+.marketctext33{
+  margin-top: -2%;
+  margin-right: 20%;
+font-weight: 400;
+
+font-family: 'Barlow Condensed',sans-serif;
+font-size: 1.2vw;
+  text-align: right;
+  color: rgba(52, 52, 52, 1)
+  ;
+
+}
+.marketcbutton11{
+margin-left: 60%;
+margin-top: 2%;
+font-weight: 500;
+font-family: 'Raleway',sans-serif;
+font-size: 1.2vw;
+padding-top: .8%;
+padding-bottom: .8%;
+padding-left: 1.5%;
+padding-right: 1.5%;
+  text-align: center;
+  color: #fff;;
+  background: #D9043D;
+  width: 20%;
+  cursor: pointer;
+}
+.envlop2{
+margin-top: 4%;
+width: 42%;
+margin-left: 25%;
+}
+.Market-center4{
+  margin-top: 7%;
+}
+.Market-center5{
+  margin-top: 7%;
+}
+.envlop4{
+  margin-top: 4%;
+  width: 47%;
+  margin-left: 25%;
+
+  }
+  
+.Market-center6{
+  margin-top: 7%;
+}
+.Market-center7{
+  margin-top: 7%;
+}
+.mmarglast{
+  margin-top: 4%;
+}

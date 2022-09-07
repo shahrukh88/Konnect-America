@@ -1,0 +1,143 @@
+.servicelast{
+
+}
+.slasttext1{
+    padding-top: 26%;
+    font-weight: 700;
+    font-size: 2.5vw;
+    font-family: 'Raleway',sans-serif;
+  
+      text-align: center;
+      color:rgba(37, 55, 89, 1);
+}
+.slasttext2{
+    
+    font-weight: 400;
+    font-size: 1.3vw;
+    font-family: 'Barlow Condensed',sans-serif;
+  margin-top: -.8%;
+      text-align: center;
+      color:rgba(0, 0, 0, 1);
+
+}
+.v9{
+margin-top: 3%;
+margin-left: 32%;
+width: 14%;
+cursor: pointer;
+}
+.v9text{
+position: absolute;
+margin-left: 34.3%;
+margin-top: -3.8%;
+    font-weight: 700;
+    font-size: 2.1vw;
+    font-family: 'Raleway',sans-serif;
+  
+cursor: pointer;
+      text-align: center;
+      color:#ffff;
+
+}
+.v10{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: -5%;
+    width: 22.8%;
+cursor: pointer;    
+}
+.v10text{
+    position: absolute;
+    margin-left: 47.3%;
+    margin-top: -3.8%;
+        font-weight: 700;
+        font-size: 2.1vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: #253759;
+    
+    }
+    .servicecolumn {
+        float: left;
+        width: 50%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .servicerow::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+    .rdesign1{
+        margin-left: 43%;
+        margin-top: 5%;
+            font-weight: 500;
+            font-size: 1.5vw;
+            font-family: 'Barlow Condensed',sans-serif;
+          
+              text-align: left;
+              color: #D9043D;
+                          
+    }
+    .rdesign2{
+        margin-left: 43%;
+            font-weight: 400;
+            font-size: 1.2vw;
+            font-family: 'Barlow Condensed',sans-serif;
+          
+              text-align: left;
+              color: rgba(52, 52, 52, 1)
+              ;
+                          
+    }
+    .rdesign11{
+        margin-left: 43%;
+        margin-top: 8%;
+            font-weight: 500;
+            font-size: 1.5vw;
+            font-family: 'Barlow Condensed',sans-serif;
+          
+              text-align: left;
+              color: #D9043D;
+                          
+    }
+    .rdesign3{
+        margin-left: 8%;
+        margin-top: 5%;
+            font-weight: 500;
+            font-size: 1.5vw;
+            font-family: 'Barlow Condensed',sans-serif;
+          
+              text-align: left;
+              color: #D9043D;
+                          
+    }
+    .rdesign4{
+        margin-left: 8%;
+            font-weight: 400;
+            font-size: 1.2vw;
+            font-family: 'Barlow Condensed',sans-serif;
+          
+              text-align: left;
+              color: rgba(52, 52, 52, 1)
+              ;
+                          
+    }
+    .rdesign33{
+        margin-left: 8%;
+        margin-top: 8%;
+            font-weight: 500;
+            font-size: 1.5vw;
+            font-family: 'Barlow Condensed',sans-serif;
+          
+              text-align: left;
+              color: #D9043D;
+                          
+    }
+    .smarglast{
+        margin-top: 4%;
+    }

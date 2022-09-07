@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+@font-face {
+  font-family: Bebas;
+  src: url("../Landingpage/BebasNeue/Commercial/TTF/BebasNeue-Regular.ttf");
+}
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  body{
+    height: 100vh;
+    overflow-X: hidden;
+ 
+    }
+    
+.main-generation{
+    position: relative;
+
+  }
+.wsky{
+    margin-top: 12%;
+    margin-left: 55%;
+    width: 40%;
+    margin-bottom: 11.4%;
+}
+.g1text{
+    position: absolute;
+    margin-top: -29.5%;
+    text-align: left;
+    margin-left: 7%;
+    font-weight: 700;
+    font-family: 'Raleway',sans-serif;
+    font-size: 3vw;
+     color: #D9043D;
+ cursor: text;
+ user-select: text;
+
+}
+.g2text{
+    position: absolute;
+    margin-top: -26.5%;
+    text-align: left;
+    margin-left: 7%;
+    font-weight: 700;
+    font-family: 'Raleway',sans-serif;
+    font-size: 4vw;
+     color: rgba(37, 55, 89, 1)
+     ;
+     user-select: text;
+
+     cursor: text;
+}
+
+.g3text{
+  position: absolute;
+  margin-top: -21.5%;
+  text-align: left;
+  margin-left: 7%;
+  font-weight: 400;
+  font-family: 'Barlow Condensed',sans-serif;
+  font-size: 1.5vw;
+  color:rgba(52, 52, 52, 1) ;
+user-select: text;
+cursor: text;
+}
+.startnow{
+  position: absolute;
+  width: 13%;
+  padding: .8%;
+  margin-top: -15.7%;
+  margin-left: 7%;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+  font-size: 1.2vw;
+  color:#fff;
+
+background-color: #D9043D;
+cursor: pointer;
+}

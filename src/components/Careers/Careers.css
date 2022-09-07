@@ -1,0 +1,28 @@
+.carrertext1{
+    text-align: left;
+   font-family: 'Raleway',sans-serif;
+    margin-top: 4%;
+     margin-left: 15%;                  
+    font-size: 4vw;
+    font-weight: 700;
+    color: #253759;  
+  
+}
+.carrertext2{
+    text-align: left;
+    font-family: 'Barlow Condensed';
+    margin-top: 0%;
+     margin-left: 15%;                  
+    font-size: 1.7vw;
+    font-weight: 400;
+    color: #000000;  
+  
+}
+hr.carrerline {
+    position: absolute;
+    margin-left: 10%;
+    width: 80%;
+    border: 2px solid rgba(217, 4, 61, 1) ;
+    
+    margin-top: 3%;
+  }

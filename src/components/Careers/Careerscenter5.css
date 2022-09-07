@@ -1,0 +1,81 @@
+.careercenter5text1{
+    font-family: 'Raleway',sans-serif;
+    text-align:left;
+    margin-left: 12%;
+  margin-top: 3%;
+    font-size:4vw;
+    font-weight: 700;
+    color: #253759;
+}
+.careercenter5text2{
+    font-family: 'Raleway',sans-serif;
+    text-align:left;
+    margin-left: 55%;
+  margin-top: 3%;
+    font-size:3vw;
+    font-weight: 700;
+    color: #253759;
+}
+.careercenter5text3{
+    font-family: 'Barlow Condensed';
+    text-align:right;
+    margin-right: 21%;
+  margin-top: -1%;
+    font-size:1.7vw;
+    font-weight: 400;
+    color: #000000;}
+
+.boxtext1{
+    font-family: 'Raleway',sans-serif;
+    text-align:left;
+    margin-left: 12%;
+  margin-top: 3%;
+    font-size:2.5vw;
+    font-weight: 700;
+    color: #253759;
+
+}
+.boxmini{
+    width: 68%;
+    height: 17vh;
+    margin-left: 12%;
+    border: 1px solid rgba(217, 4, 61, 1);
+}
+.boxminitext1{
+    font-family: 'Barlow Condensed';
+    text-align:left;
+    margin-left: 4%;
+  margin-top: 1.5%;
+    font-size:1.7vw;
+    font-weight: 500;
+    color: rgba(37, 55, 89, 1);
+
+}
+.boxminitext2{
+ position: absolute;
+    font-family: 'Barlow Condensed';
+    text-align:left;
+    margin-left: 4.5%;
+  margin-top: -1.7%;
+    font-size:1.3vw;
+    font-weight: 400;
+    color: rgba(37, 55, 89, 1);
+
+}
+.boxminitext3{
+    position: absolute;
+       font-family: 'Barlow Condensed';
+       text-align:left;
+       margin-left: 39%;
+     margin-top: -1.7%;
+       font-size:1.3vw;
+       font-weight: 500;
+       color: rgba(37, 55, 89, 1);
+   
+   }
+   .careerarrow{
+    position: absolute;
+    width: 1.5%;
+    margin-left: 23%;
+    cursor: pointer;
+   }

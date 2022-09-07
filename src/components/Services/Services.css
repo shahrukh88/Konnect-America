@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  body{
+    height: 100vh;
+    overflow-X: hidden;
+ 
+    }
+.main-container-service{
+
+}
+.servicesimage{
+    position: absolute;
+    margin-top: 11%;
+    width: 42%;
+    margin-left: 53%;
+}
+.servicetext1{
+    position: absolute;
+    margin-top: 16.4%;
+    margin-left: 7.6%;
+  font-weight: bold;
+    font-family: 'Raleway',sans-serif;
+    font-size: 2.4vw;
+    text-align: center;
+    color:rgba(217, 4, 61, 1);
+}
+.servicetext2{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 7.6%;
+  font-weight: bold;
+    font-family: 'Raleway',sans-serif;
+    font-size: 3.5vw;
+    text-align: center;
+    color:rgba(37, 55, 89, 1);
+}
+.servicetext2one{
+  position: absolute;
+  margin-top: 22.2%;
+  margin-left: 7.6%;
+font-weight: bold;
+  font-family: 'Raleway',sans-serif;
+  font-size: 3.5vw;
+  text-align: center;
+  color:rgba(37, 55, 89, 1);
+}
+.servicetext3{
+    position: absolute;
+    margin-top: 23.2%;
+    margin-left: 7.6%;
+  font-weight: 400;
+  font-family: 'Barlow Condensed',sans-serif;
+  font-size: 1.4vw;
+    text-align: left;
+    color:rgba(52, 52, 52, 1);
+}
+.servicetext3next{
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 7.6%;
+font-weight: 400;
+font-family: 'Barlow Condensed',sans-serif;
+font-size: 1.4vw;
+  text-align: left;
+  color:rgba(52, 52, 52, 1);
+}
+.servicetext3one{
+  position: absolute;
+  margin-top: 26.8%;
+  margin-left: 7.6%;
+font-weight: 400;
+font-family: 'Barlow Condensed',sans-serif;
+font-size: 1.4vw;
+  text-align: left;
+  color:rgba(52, 52, 52, 1);
+}
+.servicetext3two{
+  position: absolute;
+  margin-top: 28.5%;
+  margin-left: 7.6%;
+font-weight: 400;
+font-family: 'Barlow Condensed',sans-serif;
+font-size: 1.4vw;
+  text-align: left;
+  color:rgba(52, 52, 52, 1);
+}
+.servicetext3three{
+  position: absolute;
+  margin-top: 30.2%;
+  margin-left: 7.6%;
+font-weight: 400;
+font-family: 'Barlow Condensed',sans-serif;
+font-size: 1.4vw;
+  text-align: left;
+  color:rgba(52, 52, 52, 1);
+}
+.servicetext3four{
+  position: absolute;
+  margin-top: 31.9%;
+  margin-left: 7.6%;
+font-weight: 400;
+font-family: 'Barlow Condensed',sans-serif;
+font-size: 1.4vw;
+  text-align: left;
+  color:rgba(52, 52, 52, 1);
+}
+.servicetext3five{
+  position: absolute;
+  margin-top: 33.4%;
+  margin-left: 7.6%;
+font-weight: 400;
+font-family: 'Barlow Condensed',sans-serif;
+font-size: 1.4vw;
+  text-align: left;
+  color:rgba(52, 52, 52, 1);
+}
+.servicetext3six{
+  position: absolute;
+  margin-top: 34.9%;
+  margin-left: 7.6%;
+font-weight: 400;
+font-family: 'Barlow Condensed',sans-serif;
+font-size: 1.4vw;
+  text-align: left;
+  color:rgba(52, 52, 52, 1);
+}
+
+
+.servicetext4{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 7.6%;
+  font-weight: 700;
+  font-size: 2.5vw;
+  font-family: 'Raleway',sans-serif;
+
+    text-align: left;
+    color:rgba(52, 52, 52, 1);
+}
+.servicetext4one{
+  position: absolute;
+  margin-top: 47.5%;
+  margin-left: 7.6%;
+font-weight: 700;
+font-size: 2.5vw;
+font-family: 'Raleway',sans-serif;
+
+  text-align: left;
+  color:rgba(52, 52, 52, 1);
+}
+.servicetext4two{
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 7.6%;
+font-weight: 700;
+font-size: 2.5vw;
+font-family: 'Raleway',sans-serif;
+
+  text-align: left;
+  color:rgba(52, 52, 52, 1);
+}
+.servicetext4three{
+  position: absolute;
+  margin-top: 52.5%;
+  margin-left: 7.6%;
+font-weight: 700;
+font-size: 2.5vw;
+font-family: 'Raleway',sans-serif;
+
+  text-align: left;
+  color:rgba(52, 52, 52, 1);
+}
+.servicetext44{
+  position: absolute;
+  margin-top: 47.8%;
+  margin-left: 7.6%;
+font-weight: 700;
+font-size: 2.5vw;
+font-family: 'Raleway',sans-serif;
+
+  text-align: left;
+  color:rgba(52, 52, 52, 1);
+}
+.servicetext444{
+  position: absolute;
+  margin-top: 50.5%;
+  margin-left: 7.6%;
+font-weight: 700;
+font-size: 2.5vw;
+font-family: 'Raleway',sans-serif;
+
+  text-align: left;
+  color:rgba(52, 52, 52, 1);
+}
+.servicetext5{
+    position: absolute;
+    margin-top: 42%;
+    margin-left: 63.5%;
+  font-weight: 500;
+  font-size: 1.2vw;
+  font-family: 'Barlow Condensed',sans-serif;
+  
+    text-align: left;
+    color:rgba(52, 52, 52, 1);
+}
+.slogo1{
+    position: absolute;
+    width: 1.3%;
+    margin-top: 42.2%;
+    margin-left: 11%;
+    transform: rotate(-90deg);
+    margin-left: 61%;
+  }
+.servicetext6{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 63.5%;
+  font-weight: 500;
+  font-size: 1.2vw;
+  font-family: 'Barlow Condensed',sans-serif;
+  
+    text-align: left;
+    color:rgba(52, 52, 52, 1);
+}
+.slogo2{
+    position: absolute;
+    width: 1.3%;
+    margin-top: 45.2%;
+    margin-left: 61%;
+    transform: rotate(-90deg);
+}
+.servicetext7{
+    position: absolute;
+    margin-top: 48%;
+    margin-left: 63.5%;
+  font-weight: 500;
+  font-size: 1.2vw;
+  font-family: 'Barlow Condensed',sans-serif;
+  
+    text-align: left;
+    color:rgba(52, 52, 52, 1);
+}
+.slogo3{
+    position: absolute;
+    width: 1.3%;
+    margin-top: 48.2%;
+    margin-left: 11%;
+    margin-left: 61%;
+    transform: rotate(-90deg);
+}
+
+.servicetext8{
+    position: absolute;
+    margin-top: 51%;
+    margin-left: 63.5%;
+  font-weight: 500;
+  font-size: 1.2vw;
+  font-family: 'Barlow Condensed',sans-serif;
+  
+    text-align: left;
+    color:rgba(52, 52, 52, 1);
+}
+.slogo4{
+    position: absolute;
+    width: 1.3%;
+    margin-top: 51.2%;
+    margin-left: 11%;
+    margin-left: 61%;
+    transform: rotate(-90deg);
+}
+
+.servicetext9{
+    position: absolute;
+    margin-top: 54%;
+    margin-left: 63.5%;
+  font-weight: 500;
+  font-size: 1.2vw;
+  font-family: 'Barlow Condensed',sans-serif;
+  
+    text-align: left;
+    color:rgba(52, 52, 52, 1);
+}
+.slogo5{
+    position: absolute;
+    width: 1.3%;
+    margin-top: 54.2%;
+    margin-left: 11%;
+    margin-left: 61%;
+    transform: rotate(-90deg);
+}
+hr.new4 {
+    position: absolute;
+    margin-left: 10%;
+    width: 80%;
+    border: 2px solid rgba(217, 4, 61, 1) ;
+    margin-bottom: 8%;
+    margin-top: 60%;
+  }

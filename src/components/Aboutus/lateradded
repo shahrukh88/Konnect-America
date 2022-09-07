@@ -1,0 +1,43 @@
+ <div>
+   <hr className="aboutline5"/>
+   </div>
+   <div className='aboutfinal'>
+   <div class="rowfinal">
+  <div class="columnfinal" >
+  <p className='aboutfinal1'>Our Office</p>
+  <p className='aboutfinal2'>We’re Here  </p>
+  <p className='aboutfinal22'>  For&nbsp;<span style={{color:"rgba(217, 4, 61, 1)"}}>YOU.</span>
+  </p>
+
+
+  <p className='aboutfinal3'>Nashville, TN</p>
+  <p className='aboutfinal4'>Amsive Digital<br/>
+414 Union St Suite 1900<br/>
+Nashville, TN 37219</p>
+  
+  </div>
+  <div class="columnfinal" >
+
+  <img className='map' src={aboutimage9} alt='map'/> 
+
+  </div>
+</div>
+
+   </div>
+
+   <div className='careercenter3'>
+    <p className='careercenter3text1'>Meet The Team</p>
+    <p className='careercenter3text2'>We Give Solutions And Build Brands</p>
+    <div className='profile1'>
+        <p className='careercenter3text3'>Mohammad Ali</p>
+        <p className='careercenter3text4'>CEO</p>
+    </div>
+    <div className='profile2'>
+    <p className='careercenter3text3'>Mohammad Ali</p>
+        <p className='careercenter3text4'>CEO</p>
+    </div>
+    <div className='profile3'>
+    <p className='careercenter3text3'>Mohammad Ali</p>
+        <p className='careercenter3text4'>CEO</p>
+    </div>
+    </div>

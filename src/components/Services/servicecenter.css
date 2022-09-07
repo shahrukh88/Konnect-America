@@ -1,0 +1,195 @@
+.servicecenter{
+
+  
+}
+.centerservicetext1{
+padding-top: 63%;
+    font-weight: 700;
+    font-size: 2.5vw;
+    font-family: 'Raleway',sans-serif;
+  
+      text-align: center;
+      color:rgba(37, 55, 89, 1);
+}
+.centerservicetext1one{
+  margin-top: -1.4%;
+      font-weight: 700;
+      font-size: 2.5vw;
+      font-family: 'Raleway',sans-serif;
+    
+        text-align: center;
+        color:rgba(37, 55, 89, 1);
+  }
+.centerservicetext2{
+margin-top: -1%;
+        font-weight: 400;
+        font-size: 1.3vw;
+        font-family: 'Barlow Condensed',sans-serif;
+      
+          text-align: center;
+          color:rgba(0, 0, 0, 1);
+    }
+    .centerservicetext2one{
+
+      font-weight: 400;
+      font-size: 1.3vw;
+      font-family: 'Barlow Condensed',sans-serif;
+    margin-top: -1%;
+        text-align: center;
+        color:rgba(0, 0, 0, 1);
+  }
+
+    .centerservicelogo1{
+position: absolute;
+margin-left: 13.5%;
+margin-top: 4%;
+width: 7.5%;
+
+}
+.slogo1text{
+    position: absolute;
+    margin-left: 14%;
+margin-top: 12%;
+font-weight: 500;
+font-size: 1.4vw;
+font-family: 'Barlow Condensed',sans-serif;
+text-align: center;
+  color: #253759;
+
+}
+.slogo1text1{
+    position: absolute;
+    margin-left: 11%;
+margin-top: 14%;
+font-weight: 400;
+font-size: .8vw;
+font-family: 'Barlow Condensed',sans-serif;
+text-align: center;
+  color: #253759;
+
+}
+.slogo1text2{
+    position: absolute;
+    margin-left: 25.9%;
+margin-top: 14%;
+font-weight: 400;
+font-size: .8vw;
+font-family: 'Barlow Condensed',sans-serif;
+text-align: center;
+  color: #253759;
+
+}
+.slogo1text3{
+    position: absolute;
+    margin-left: 42.8%;
+margin-top: 14%;
+font-weight: 400;
+font-size: .8vw;
+font-family: 'Barlow Condensed',sans-serif;
+text-align: center;
+  color: #253759;
+
+}
+.slogo1text4{
+    position: absolute;
+    margin-left: 58.8%;
+margin-top: 14%;
+font-weight: 400;
+font-size: .8vw;
+font-family: 'Barlow Condensed',sans-serif;
+text-align: center;
+  color: #253759;
+
+}
+.slogo1text5{
+    position: absolute;
+    margin-left: 76.5%;
+margin-top: 14%;
+font-weight: 400;
+font-size: .8vw;
+font-family: 'Barlow Condensed',sans-serif;
+text-align: center;
+  color: #253759;
+
+}
+.centerservicelogo2{
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 4%;
+    width: 7%;    
+    }
+    
+.slogo2text{
+    position: absolute;
+    margin-left: 26.5%;
+margin-top: 12%;
+font-weight: 500;
+font-size: 1.4vw;
+font-family: 'Barlow Condensed',sans-serif;
+text-align: center;
+  color: #253759;
+
+}
+    .centerservicelogo3{
+        position: absolute;
+        margin-left: 44.8%;
+        margin-top: 4%;
+        width: 7.6%;
+        }
+        
+.slogo3text{
+    position: absolute;
+    margin-left: 45.8%;
+margin-top: 12%;
+font-weight: 500;
+font-size: 1.4vw;
+font-family: 'Barlow Condensed',sans-serif;
+text-align: center;
+  color: #253759;
+
+}
+        .centerservicelogo4{
+            position: absolute;
+            margin-left: 61%;
+            margin-top: 4%;
+            width: 7.3%;
+            }
+            
+.slogo4text{
+    position: absolute;
+    margin-left: 59.2%;
+margin-top: 12%;
+font-weight: 500;
+font-size: 1.4vw;
+font-family: 'Barlow Condensed',sans-serif;
+text-align: center;
+  color: #253759;
+
+}
+            .centerservicelogo5{
+                position: absolute;
+                margin-left: 78%;
+                margin-top: 3.3%;
+                width: 8.2%; 
+                }            
+
+                .slogo5text{
+                    position: absolute;
+                    margin-left: 78%;
+                margin-top: 12%;
+                font-weight: 500;
+                font-size: 1.4vw;
+                font-family: 'Barlow Condensed',sans-serif;
+                text-align: center;
+                  color: #253759;
+                
+                }
+                
+hr.news {
+  position: absolute;
+  margin-left: 10%;
+  width: 80%;
+  border: 2px solid rgba(217, 4, 61, 1) ;
+  
+  margin-top: 22%;
+}
