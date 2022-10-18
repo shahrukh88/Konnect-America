@@ -11,8 +11,21 @@
  
     }
 .main-container-service{
-
+position: relative;
 }
+.kalogoservices{
+  position: absolute;
+  margin-top: 4%;
+  width: 18%;
+  margin-left: 7.3%;
+  
+  }
+  .kalogo2services{
+    width: 0%;
+    }
+    .kalogo2market{
+      width: 0%;
+      }
 .servicesimage{
     position: absolute;
     margin-top: 11%;
@@ -213,7 +226,15 @@ font-family: 'Raleway',sans-serif;
     width: 1.3%;
     margin-top: 42.2%;
     margin-left: 11%;
-    transform: rotate(-90deg);
+    transform: rotate(-360deg);
+    margin-left: 61%;
+  }
+  .slogo1ba{
+    position: absolute;
+    width: 1.3%;
+    margin-top: 42.2%;
+    margin-left: 11%;
+    transform: rotate(-360deg);
     margin-left: 61%;
   }
 .servicetext6{
@@ -232,7 +253,14 @@ font-family: 'Raleway',sans-serif;
     width: 1.3%;
     margin-top: 45.2%;
     margin-left: 61%;
-    transform: rotate(-90deg);
+    transform: rotate(-360deg);
+}
+.slogo2ba{
+  position: absolute;
+  width: 1.3%;
+  margin-top: 45.2%;
+  margin-left: 61%;
+  transform: rotate(-360deg);
 }
 .servicetext7{
     position: absolute;
@@ -251,7 +279,15 @@ font-family: 'Raleway',sans-serif;
     margin-top: 48.2%;
     margin-left: 11%;
     margin-left: 61%;
-    transform: rotate(-90deg);
+    transform: rotate(-360deg);
+}
+.slogo3ba{
+  position: absolute;
+  width: 1.3%;
+  margin-top: 48.2%;
+  margin-left: 11%;
+  margin-left: 61%;
+  transform: rotate(-360deg);
 }
 
 .servicetext8{
@@ -271,9 +307,16 @@ font-family: 'Raleway',sans-serif;
     margin-top: 51.2%;
     margin-left: 11%;
     margin-left: 61%;
-    transform: rotate(-90deg);
+    transform: rotate(-360deg);
 }
-
+.slogo4ba{
+  position: absolute;
+  width: 1.3%;
+  margin-top: 51.2%;
+  margin-left: 11%;
+  margin-left: 61%;
+  transform: rotate(-360deg);
+}
 .servicetext9{
     position: absolute;
     margin-top: 54%;
@@ -285,13 +328,31 @@ font-family: 'Raleway',sans-serif;
     text-align: left;
     color:rgba(52, 52, 52, 1);
 }
-.slogo5{
+.slogo5
+{
     position: absolute;
     width: 1.3%;
     margin-top: 54.2%;
     margin-left: 11%;
     margin-left: 61%;
-    transform: rotate(-90deg);
+    transform: rotate(-360deg);
+}
+.slogo5ba
+{
+    position: absolute;
+    width: 1.3%;
+    margin-top: 54.2%;
+    margin-left: 11%;
+    margin-left: 61%;
+    transform: rotate(-360deg);
+}
+.slogo5b{
+  position: absolute;
+  width: 1.3%;
+  margin-top: 54.2%;
+  margin-left: 11%;
+  margin-left: 61%;
+  transform: rotate(-360deg);
 }
 hr.new4 {
     position: absolute;
@@ -301,3 +362,249 @@ hr.new4 {
     margin-bottom: 8%;
     margin-top: 60%;
   }
+  @media only screen and (max-width: 750px) {
+    .kalogoservices{
+      width: 0%;
+      
+      }
+    .kalogo2services{
+      position: absolute;
+      margin-top: 2%;
+      width: 10%;
+      margin-left: 7.3%;
+      
+      }
+      .kalogo2market{
+        position: absolute;
+        margin-top: 5%;
+        width: 10%;
+        margin-left: 7.3%;
+        
+        }
+    .servicesimage{
+   position: relative;
+   width: 80%;
+   margin-left: 10%;
+    }
+    .servicetext1{
+      position: relative;
+      text-align: left;
+      font-size: 5VW;
+     margin-top: 2%;
+    }
+    .servicetext2{
+      position: relative;
+      text-align: left;
+      font-size: 8VW;
+     margin-top: -4.5%;
+    }
+    .servicetext3{
+      position: relative;
+      text-align: left;
+      font-size: 2.6VW;
+     margin-top: -4.5%;
+    }
+    .servicetext3next{
+      position: relative;
+      margin-top: -3.7%;
+      margin-left: 7.6%;
+    font-weight: 400;
+    font-family: 'Barlow Condensed',sans-serif;
+    font-size: 2.6vw;
+      text-align: left;
+      color:rgba(52, 52, 52, 1);
+    }
+   
+    .servicetext4{
+      position: relative;
+      text-align: left;
+      font-size: 5VW;
+     margin-top: 3%;
+    }
+    .servicetext4one{
+      position:relative;
+      margin-top: -4%;
+      margin-left: 7.6%;
+    font-weight: 700;
+    font-size: 5vw;
+    font-family: 'Raleway',sans-serif;
+    
+      text-align: left;
+      color:rgba(52, 52, 52, 1);
+    }
+    .servicetext4two{
+      position: relative;
+      margin-top: -4%;
+      margin-left: 7.6%;
+    font-weight: 700;
+    font-size: 5vw;
+    font-family: 'Raleway',sans-serif;
+    
+      text-align: left;
+      color:rgba(52, 52, 52, 1);
+    }
+    .servicetext4three{
+      position: relative;
+      margin-top: -4%;
+      margin-left: 7.6%;
+    font-weight: 700;
+    font-size: 5vw;
+    font-family: 'Raleway',sans-serif;
+    
+      text-align: left;
+      color:rgba(52, 52, 52, 1);
+    }
+    .servicetext44{
+      position: relative;
+      text-align: left;
+      font-size: 5VW;
+     margin-top: -4%;
+    }
+    .servicetext444{
+      position: relative;
+      text-align: left;
+      font-size: 5VW;
+     margin-top: -4%;
+    }
+    .slogo1{
+      position: relative;
+      float: left;
+      width: 4%;
+      margin-top: 1.3%;
+      margin-left: 27%;
+    }
+    .slogo1ba{
+      position: relative;
+      float: left;
+      width: 4%;
+      margin-top: -6.5%;
+      margin-left: 18%;
+    }
+    .servicetext5{
+      position: relative;
+      text-align: left;
+      font-size: 4VW;
+      margin-left: 25%;
+     margin-top: 0%;
+    }
+    .slogo2{
+      position: relative;
+      float: left;
+      width: 4%;
+      margin-top: 1.3%;
+      margin-left: 27%;
+    }
+    .slogo2ba{
+      position: relative;
+      float: left;
+      width: 4%;
+      margin-top: -6.5%;
+      margin-left: 18%;
+    }
+    .servicetext6{
+      position: relative;
+      text-align: left;
+      font-size: 4VW;
+      margin-left: 25%;
+     margin-top: 0%;
+    }
+    .slogo3{
+      position: relative;
+      float: left;
+      width: 4%;
+      margin-top: 1.3%;
+      margin-left: 27%;
+    }
+    .slogo3ba{
+      position: relative;
+      float: left;
+      width: 4%;
+      margin-top: -6.5%;
+      margin-left: 18%;
+    }
+    .servicetext7{
+      position: relative;
+      text-align: left;
+      font-size: 4VW;
+      margin-left: 25%;
+     margin-top: 0%;
+    }
+    .slogo4{
+      position: relative;
+      float: left;
+      width: 4%;
+      margin-top: 1.3%;
+      margin-left: 27%;
+    }
+    .slogo4ba{
+      position: relative;
+      float: left;
+      width: 4%;
+      margin-top: -6.5%;
+      margin-left: 18%;
+    }
+    .servicetext8{
+      position: relative;
+      text-align: left;
+      font-size: 4VW;
+      margin-left: 25%;
+     margin-top: 0%;
+    }
+    .slogo5{
+      position: relative;
+      float: left;
+      width: 4%;
+      margin-top: 1.3%;
+      margin-left: 27%;
+    }
+    .slogo5ba{
+      position: relative;
+      float: left;
+      width: 4%;
+      margin-top: -6.5%;
+      margin-left: 18%;
+    }
+    .servicetext9{
+      position: relative;
+      text-align: left;
+      font-size: 4VW;
+      margin-left: 25%;
+     margin-top: 0%;
+    }
+
+    hr.new4 {
+      position: relative;
+      margin-left: 10%;
+      width: 80%;
+      border: 2px solid rgba(217, 4, 61, 1) ;
+       margin-top: 5%;
+       margin-bottom: -60%;
+    }
+
+    .servicetext2one{
+      position: relative;
+      margin-top: -7%;
+      margin-left:8%;
+    font-weight: bold;
+      font-family: 'Raleway',sans-serif;
+      font-size: 8vw;
+      text-align: left;
+      color:rgba(37, 55, 89, 1);
+    }
+    .servicetext3one,.servicetext3two,.servicetext3three,.servicetext3four,.servicetext3five,.servicetext3six{
+font-size: 0px;
+    }
+    .servicetext3brand3mb{
+      position: relative;
+      margin-top: 2%;
+      margin-left: 7.6%;
+    font-weight: 400;
+    font-family: 'Barlow Condensed',sans-serif;
+    font-size: 3vw;
+      text-align: left;
+      color:rgba(52, 52, 52, 1);
+    }
+    
+    
+  }
+  

@@ -1,0 +1,164 @@
+.loyaltybrand2img1{
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 2%;
+    width: 6%;
+}
+.loyaltybrand2img1txt1{
+    position: absolute;
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 500;
+font-size: 1.5vw;
+align-items: center;
+
+text-transform: capitalize;
+color: #253759;
+margin-left: 12%;
+margin-top: 8.5%;
+}
+.loyaltybrand2img1txt2{
+    position: absolute;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+   margin-top: 10.5%;
+   margin-left: 8%;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: center;
+    color: #343434;
+}
+.loyaltybrand2img2{
+    position: absolute;
+    margin-left: 29%;
+    margin-top: 2%;
+    width: 6%;
+}
+.loyaltybrand2img2txt1{
+    position: absolute;
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 500;
+font-size: 1.5vw;
+align-items: center;
+
+text-transform: capitalize;
+color: #253759;
+margin-left: 28%;
+margin-top: 8.5%;
+}
+.loyaltybrand2img2txt2{
+    position: absolute;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+   margin-top: 10.5%;
+   margin-left: 24.7%;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: center;
+    color: #343434;
+}
+
+.loyaltybrand2img3{
+    position: absolute;
+    margin-left: 47%;
+    margin-top: 2%;
+    width: 6%;
+}
+.loyaltybrand2img3txt1{
+    position: absolute;
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 500;
+font-size: 1.5vw;
+align-items: center;
+
+text-transform: capitalize;
+color: #253759;
+margin-left: 46.4%;
+margin-top: 8%;
+}
+.loyaltybrand2img3txt2{
+    position: absolute;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+   margin-top: 10.5%;
+   margin-left: 43.3%;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: center;
+    color: #343434;
+}
+
+
+.loyaltybrand2img4{
+    position: absolute;
+    margin-left: 63.5%;
+    margin-top: 2%;
+    width: 6%;
+}
+.loyaltybrand2img4txt1{
+    position: absolute;
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 500;
+font-size: 1.5vw;
+align-items: center;
+
+text-transform: capitalize;
+color: #253759;
+margin-left: 61.9%;
+margin-top: 8%;
+}
+.loyaltybrand2img4txt2{
+    position: absolute;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+   margin-top: 10.5%;
+   margin-left: 59.2%;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: center;
+    color: #343434;
+}
+
+
+
+.loyaltybrand2img5{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 2%;
+    width: 6%;
+}
+.loyaltybrand2img5txt1{
+    position: absolute;
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 500;
+font-size: 1.5vw;
+align-items: center;
+
+text-transform: capitalize;
+color: #253759;
+margin-left: 79.8%;
+margin-top: 8%;
+}
+.loyaltybrand2img5txt2{
+    position: absolute;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+   margin-top: 10.5%;
+   margin-left: 76.7%;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: center;
+    color: #343434;
+}
+@media only screen and (max-width: 750px) {
+.loyaltybrand2img1,.loyaltybrand2img2,.loyaltybrand2img3,.loyaltybrand2img4,.loyaltybrand2img5{
+    width: 0%;
+}
+.loyaltybrand2img1txt1,.loyaltybrand2img1txt2,.loyaltybrand2img2txt1,.loyaltybrand2img2txt2,.loyaltybrand2img3txt1,.loyaltybrand2img3txt2,.loyaltybrand2img4txt1,.loyaltybrand2img4txt2,.loyaltybrand2img5txt1,.loyaltybrand2img5txt2{
+    font-size: 0px;
+}
+}

@@ -3,9 +3,13 @@ import './Form1.css';
 import '../Landingpage/Navbar.css';
 import Talogo from '../Images/Talogo.png'
 import Formimage1 from '../Images/Form/Formimage1.jpg'
+
+import Formimage1mb from '../Images/Form/Formimage1mb.jpg'
 import Footer from '../Footer/Footer';
 import Closemin from '../Images/Close-min.png'
 import Navbar from '../Navbar/Navbar';
+import kamerica from '../Images/kamericalogo.png'
+import kamerica2 from '../Images/kamericalogo2.png'
 
 import {Helmet} from"react-helmet";
 import { useEffect } from 'react';
@@ -13,6 +17,7 @@ import $ from 'jquery';
 
 import { Link } from "react-router-dom"; 
 import React from 'react';
+import Navbar2 from '../Navbar/Navbar2';
 function Form1() {
     function myFunction() {
         document.getElementById("getFile").click();
@@ -53,30 +58,38 @@ function Form1() {
     <div className='navservices'>
     <div className="modalcontainer">
   
-  <button type="button"  className="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" style={{position:"absolute",marginTop:"4%",marginLeft:"90%",backgroundColor:"white",width:"10%",height:"7vh",padding:".3%"}} >
+    <div  className="btn-primary3" data-toggle="modal" data-target=".bd-example-modal-lg"  >
   <div class="m1"></div>
 <div class="m2"></div>
 <div class="m3"></div>
 
     <p className='mtext'>Menu</p>
-  </button>
+  </div>
   
   <Navbar/>
+  <Navbar2/>
 </div>
 
    
       </div>
 <div className='Formmaincontainer'>
 <img className='Formmainimage' src={Formimage1} alt='main-services'/> 
+<img className='Formmainimagemb' src={Formimage1mb} alt='main-services'/> 
+<img className='kalogoform' src={kamerica} alt='kamericalogo'/> 
+
+<img className='kalogo2form' src={kamerica2} alt='kamericalogo'/> 
+
 <p className='Formtext1'>Apply at</p>
 <p className='Formtext2'>Konnect</p>
 <p className='Formtext3'>America</p>
 
 </div>
 <div className='Formcenter'>
-    <p className='Formcentertext1'>Ready To Join<br/> 
-Our Amazing&nbsp;<span style={{color:"rgba(217, 4, 61, 1)"}}>TEAM?</span> </p>
+    <p className='Formcentertext1'>Ready To Join<br/> </p>
+    <p className='Formcentertext1a'>Our Amazing&nbsp;<span style={{color:"rgba(217, 4, 61, 1)"}}>TEAM?</span> </p>
 <p className='Formcentertext2'>Thank you for your interest in working with Konnect America. Please complete the following form, upload a<br/> resume and your best, most relevant portfolio examples. We look forward to reviewing your work.</p>
+<p className='Formcentertext2mb'>Thank you for your interest in working with Konnect America. Please complete the<br/> following form, upload a resume and your best, most relevant portfolio examples. We <br/>look forward to reviewing your work.</p>
+
 <p className='Formcentertext3'>Required*</p>
 <p className='Formcentertext4'>Full Time Position</p>
 </div>
@@ -98,27 +111,29 @@ Our Amazing&nbsp;<span style={{color:"rgba(217, 4, 61, 1)"}}>TEAM?</span> </p>
     <div className='radiobuton'>
     <input type="radio" id="html" name="fav_language" value="HTML"/>
   <label for="html" className='formfnametexthtml'>Email</label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <input type="radio" id="css" name="fav_language" value="CSS"/>
   <label for="css" className='formfnametexthtml'>Phone</label>
-  <input type="radio" id="javascript" name="fav_language" value="JavaScript"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+<input type="radio" id="javascript" name="fav_language" value="JavaScript"/>
   <label for="javascript" className='formfnametexthtml'>Text Message</label>
 </div>
   <br/>
     <label className='formfnametext4' for="budget">Which full-time position are you applying for? *</label>
     <br/>
-    <select id="country" name="budget">
-      <option value="1">Select Position</option>
+    <select id="country" name="budget" className='selectpostion'>
+      <option value="1" >Select Position</option>
  
     </select>
    
      <br/>
-     <label className='formfnametext2' >Salary*</label><br/>
+     <label className='formfnametext2sal' >Salary*</label><br/>
     <input type="text" id="lname" name="salary"  placeholder='$ 00,000 - $ 000,000'/>
     <br/>
     <label className='formfnametext5' >Upload your resume and/​or portfolio (PDF only)</label><br/>
     
     <div className='fileupload'>
-    <button  style={{display:"block",height:"30px",width:"120px",backgroundColor:"#D9043D",color:"white",borderStyle:"none",fontFamily:"Raleway"}} onClick={myFunction}>Upload</button>
+    <button className='upload'   onClick={myFunction}>Upload</button>
   <input type='file' id="getFile" style={{display:"none"}}/>
   <p className='dragfile'>or drag files here.</p>
     </div>

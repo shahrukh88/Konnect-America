@@ -1,6 +1,7 @@
 import '../Landingpage/Navbar.css';
 import React from 'react';
 import Closemin from '../Images/Close-min.png'
+import navbarlogo from '../Images/navbarlogo.png'
 
 import { Link } from "react-router-dom"; 
 
@@ -16,88 +17,116 @@ function Navbar() {
       <div className="modal-body2" id="myDIV">
         <br/><br/>
       <li ><a className='listyle'  href='/'>Home</a></li>
+      <br/>
        <div className="dropdown ">
-      <li ><a className='listyle'  style={{marginLeft:"26%"}} href='./services'>Services</a></li>
+      <li ><a className='listyle'  style={{marginLeft:"108%"}} href='./services'>Market&nbsp;Solutions                 <i className='bx bxs-chevron-right arrow'></i>
+</a></li>
       
       <div className="dropdown-content">
-        <div className='boxnav'>
+        
+<div className="bgrow">
+  <div className="bgcolumn" >
+  <div className='boxnav'>
         <p className='boxnavtext1'> Advertisment Campagin</p>
      
-       <li ><a className='boxnavtext2' href='#'>Social Media Advertisment</a></li>
-  
-        <Link className='boxnavtext2' to="#">Videography</Link>
-        <Link className='boxnavtext2' to="#">Campagin Strategy</Link>
-        <Link className='boxnavtext2' to="#">Build Traction</Link>
-        <Link className='boxnavtext2' to="#">Generate target Audience</Link>
+       <p className='boxnavtext2' >Social Media Advertisment</p>
+        <p className='boxnavtext2' >Videography</p>
+        <p className='boxnavtext2' >Campagin Strategy</p>
+        <p className='boxnavtext2' >Build Traction</p>
+        <p className='boxnavtext2' >Generate target Audience</p>
         </div>
-      <div className='boxnav2'>
+  
+  </div>
+  <div className="bgcolumn" >
+  <div className='boxnav2'>
       <p className='boxnavtext1'> Brand Strategy</p>
        
-       <li ><a className='boxnavtext2' href='#'>Visual Identity</a></li>
+       <p className='boxnavtext2' >Visual Identity</p>
    
-       <Link className='boxnavtext2' to="#">Brand Messaging</Link>
-       <li ><a className='boxnavtext2' href='./brand3'>Marketing Strategy</a></li>
-        <Link className='boxnavtext2' to="#">Brand Guidelines</Link>
-        <Link className='boxnavtext2' to="#">Engagement Growth</Link>
+       <p className='boxnavtext2' >Brand Messaging</p>
+       <p className='boxnavtext2' >Marketing Strategy</p>
+        <p className='boxnavtext2' >Brand Guidelines</p>
+        <p className='boxnavtext2' >Engagement Growth</p>
       
      
         </div>
-        <div className='boxnav3'>
+  
+  </div>
+</div>
+      <div className="bgrow">
+  <div className="bgcolumn" >
+  <div className='boxnav3'>
         <p className='boxnavtext1'> Website Design Strategy</p>
-        <Link  className='boxnavtext2' to="/">Search Engine Optimization (SEO)</Link>
-       <Link className='boxnavtext2' to="#">UI/UX Design</Link>
-        <Link className='boxnavtext2' to="#">Wireframing & Userflow</Link>
-        <Link className='boxnavtext2' to="#">Website Optimization</Link>
-        <Link className='boxnavtext2' to="#">E-Commerce Implementation</Link>
+        <p  className='boxnavtext2' >Search Engine Optimization (SEO)</p>
+       <p className='boxnavtext2' >UI/UX Design</p>
+        <p className='boxnavtext2' >Wireframing & Userflow</p>
+        <p className='boxnavtext2' >Website Optimization</p>
+        <p className='boxnavtext2' >E-Commerce Implementation</p>
       
       </div>
-      <div className='boxnav4'>
+
+
+  </div>
+  <div className="bgcolumn" >
+  <div className='boxnav4'>
         <p className='boxnavtext1'> Content Optimization</p>
-        <Link  className='boxnavtext2' to="#">Product Data entry</Link>
-       <Link className='boxnavtext2' to="#">Product Categorization</Link>
-        <Link className='boxnavtext2' to="#">Products Data Management</Link>
-        <Link className='boxnavtext2' to="#">Search Result Optimization</Link>
-        <Link className='boxnavtext2' to="#">Image & Video Tagging</Link>
+        <p  className='boxnavtext2' >Product Data entry</p>
+       <p className='boxnavtext2' >Product Categorization</p>
+        <p className='boxnavtext2' >Products Data Management</p>
+        <p className='boxnavtext2' >Search Result Optimization</p>
+        <p className='boxnavtext2' >Image & Video Tagging</p>
         </div>
-        <div className='boxnav5'>
+  </div>
+</div>
+
+<div className="bgrow">
+  <div className="bgcolumn" >
+  <div className='boxnav5'>
         <p className='boxnavtext1'> Content Marketing</p>
-        <Link  className='boxnavtext2' to="#">Content Creation & Development</Link>
-       <Link className='boxnavtext2' to="#">Promotion of Content</Link>
-        <Link className='boxnavtext2' to="#">Content Optimization</Link>
-        <li ><a className='boxnavtext2' href='./brand4'>Content Marketing</a></li>
-      <Link className='boxnavtext3' to="#"></Link>
+        <p  className='boxnavtext2' >Content Creation & Development</p>
+       <p className='boxnavtext2' >Promotion of Content</p>
+        <p className='boxnavtext2' >Content Optimization</p>
+        <p className='boxnavtext2' >Content Marketing</p>
+        <p className='boxnavtext2' style={{visibility:"hidden"}} >Content Optimization</p>
+
+      <p className='boxnavtext3' ></p>
      
       
       </div>
-      <div className='boxnav6'>
+     
+  </div>
+  <div className="bgcolumn" >
+
+  <div className='boxnav6'>
       <p className='boxnavtext1'>Lead Generation </p>
 
-      <li ><a className='boxnavtext2' href='./generation'>Lead Generation</a></li>
+      <p className='boxnavtext2' >Lead Generation</p>
      
     
-       <Link className='boxnavtext2' to="3">Verified Authethic Leads</Link>
-        <Link className='boxnavtext2' to="#">Right Leads for you</Link>
-        <Link className='boxnavtext2' to="#">Emailing Campagin Lists</Link>
-        <Link className='boxnavtext2' to="#">Mobile Direct Contacts</Link>
+       <p className='boxnavtext2' >Verified Authethic Leads</p>
+        <p className='boxnavtext2' >Right Leads for you</p>
+        <p className='boxnavtext2' >Emailing Campagin Lists</p>
+        <p className='boxnavtext2' t>Mobile Direct Contacts</p>
      
     
         </div>
-      </div>
+       </div>
+</div>
+ </div>
      </div>
-      <li ><a className='listyle' href='./form'>Form</a></li>
+     <br/>
+     <br/>
+      <li ><a className='listyle' href='./form'>Work</a></li>
+      <br/>
       <li ><a className='listyle' href='./marketing'>Marketing</a></li>
-      <li ><a className='listyle' href='/brand'>Brand</a></li>
-      <li ><a className='listyle' href='./brand2'>Brand Strategy</a></li>
-   
-      <li ><a className='listyle'  href='./brand3'>E-Commerce</a></li>
-     
-      <li ><a className='listyle' href='./brand4'>Content Marketing</a></li>
-     
-      <li ><a className='listyle' href='./career'>Career</a></li>
-
+      <br/>
+      <li ><a className='listyle' href='./career'>Careers</a></li>
+       <br/>
       <li ><a className='listyle' href='./Aboutus'>About Us</a></li>
       
       </div>
+      <img className='navbarlogo'  src={navbarlogo} alt='image'/> 
+
     </div>
   </div>
 </div>

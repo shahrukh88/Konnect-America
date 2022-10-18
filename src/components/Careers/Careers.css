@@ -8,10 +8,20 @@
     color: #253759;  
   
 }
+.carrertext1a{
+    text-align: left;
+   font-family: 'Raleway',sans-serif;
+    margin-top: -2%;
+     margin-left: 15%;                  
+    font-size: 4vw;
+    font-weight: 700;
+    color: #253759;  
+  
+}
 .carrertext2{
     text-align: left;
     font-family: 'Barlow Condensed';
-    margin-top: 0%;
+    margin-top: -1%;
      margin-left: 15%;                  
     font-size: 1.7vw;
     font-weight: 400;
@@ -26,3 +36,38 @@ hr.carrerline {
     
     margin-top: 3%;
   }
+  @media only screen and (max-width: 750px) {
+    .carrertext1{
+        text-align: left;
+       font-family: 'Raleway',sans-serif;
+        margin-top: 4%;
+         margin-left: 5%;                  
+        font-size: 6vw;
+        font-weight: 700;
+        color: #253759;  
+      
+    }
+    .carrertext1a{
+        margin-top: -4.5%;
+         margin-left: 5%;                  
+        font-size: 6vw;
+
+    }
+    .carrertext2{
+        font-family: 'Barlow Condensed';
+        margin-top: -3%;
+         margin-left: 5%;                  
+        font-size: 2.5vw;
+        font-weight: 400;
+        color: #000000;  
+      
+    }
+    hr.carrerline {
+        position: absolute;
+        margin-left: 10%;
+        width: 80%;
+        border: 2px solid rgba(217, 4, 61, 1) ;
+        
+        margin-top: 3%;
+      }  
+}

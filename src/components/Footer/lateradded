@@ -17,3 +17,19 @@
     <p  className='vtext'>View All Services</p>
     <img className='view' src={clogo} alt='c2logo'/> 
  </button>
+
+
+
+//
+<hr className='brandline'/>
+  <div className='brandlast'>
+  <p className='slasttext1'>Our Brand Strategy Services</p>
+ <p className='slasttext2'>You wouldn’t build a house without a blueprint, supporting materials, and a solid plan. Likewise, a website requires a great deal<br/>
+of attention and planning. Here are the steps we take toward launching a successful website</p>
+
+<p className='info1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brand Story&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Funnel Mapping &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logo Identity</p>
+<p className='info2one'>Market Positioning&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Market & Competitive Research &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marketing Strategy</p>
+<p className='info3one'>Sales Enablement&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Message Development</p>
+<p className='info4one'>Brand Voice</p>
+
+ </div>

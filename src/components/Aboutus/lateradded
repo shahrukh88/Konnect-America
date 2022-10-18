@@ -41,3 +41,59 @@ Nashville, TN 37219</p>
         <p className='careercenter3text4'>CEO</p>
     </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /////
+    <div style={{visibility:"none"}}>Your website is unquestionably the number one resource that buyers use for evaluating<br/>your company, products and services– often times before ever speaking with a sales rep.<br/>A website performs many jobs: brand ambassador, product/service educator, 24/7  digital<br/>sales rep and customer caretaker — all in one. Therefore it should have the capacity to<br/>nurture buyers along every stage of the buyer’s journey and measurably support deeper <br/>engagement to drive sales.</div>
+    ///////////
+    <div className='aboutlast3'>
+    
+    <img className='aboutimagelast7' src={aboutimage7} alt='main-services'/> 
+ 
+    <p className='aboutlast2text1'>
+    There’s no other company that does it better. Konnect America<br/> professionalism, patnership and expertise is invaluable. They are a true <br/>extension of our team!
+    </p>
+  <p className='aboutlasttext2'>Lindsey K.</p>
+  <p className='aboutlasttext3'>Demand Generation Leader, E-Builder Enterprise - A Trimble Company</p>
+  
+ 
+    </div>
+  
+ 
+   <div className='aboutlast2'>
+    
+    <img className='aboutimagelast7' src={aboutimage7} alt='main-services'/> 
+ 
+    <p className='aboutlast2text1'>
+    There’s no other company that does it better. Konnect America<br/> professionalism, patnership and expertise is invaluable. They are a true <br/>extension of our team!
+    </p>
+  <p className='aboutlasttext2'>Lindsey K.</p>
+  <p className='aboutlasttext3'>Demand Generation Leader, E-Builder Enterprise - A Trimble Company</p>
+  
+ 
+    </div>
+   <div className='aboutlast'>
+    
+   <img className='aboutimagelast7' src={aboutimage7} alt='main-services'/> 
+
+   <p className='aboutlasttext1'>
+   There’s no other company that does it better. Konnect America<br/> professionalism, patnership and expertise is invaluable. They are a true <br/>extension of our team!
+   </p>
+ <p className='aboutlasttext2'>Lindsey K.</p>
+ <p className='aboutlasttext3'>Demand Generation Leader, E-Builder Enterprise - A Trimble Company</p>
+ 
+
+   </div>

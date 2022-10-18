@@ -1,4 +1,45 @@
-  .brand2image{
+.centerbrandtext1{
+    padding-top: 63%;
+        font-weight: 700;
+        font-size: 2.5vw;
+        font-family: 'Raleway',sans-serif;
+      
+          text-align: center;
+          color:rgba(37, 55, 89, 1);
+    }
+    .centerbrandtext2{
+      margin-top: -1.4%;
+          font-weight: 700;
+          font-size: 2.5vw;
+          font-family: 'Raleway',sans-serif;
+        
+            text-align: center;
+            color:rgba(37, 55, 89, 1);
+      }
+    .centerbrandtext3{
+    margin-top: -1%;
+            font-weight: 400;
+            font-size: 1.3vw;
+            font-family: 'Barlow Condensed',sans-serif;
+          
+              text-align: center;
+              color:rgba(0, 0, 0, 1);
+        }
+        .centerbrandtext4{
+    
+          font-weight: 400;
+          font-size: 1.3vw;
+          font-family: 'Barlow Condensed',sans-serif;
+        margin-top: -1%;
+            text-align: center;
+            color:rgba(0, 0, 0, 1);
+      }
+      .centerbrandtext4mb{
+    font-size: 0px;  
+    }  
+
+
+.brand2image{
     position: absolute;
     margin-top: 10%;
     width: 40%;
@@ -207,4 +248,131 @@ margin-top: 2%;
     margin-top: 8%;
     margin-left: 14%;
  
+}
+@media only screen and (max-width: 750px) {
+    .brand2image{
+        position: relative;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .centerbrandtext1{
+        padding-top: 63%;
+            font-weight: 700;
+            font-size: 4vw;
+            font-family: 'Raleway',sans-serif;
+          
+              text-align: center;
+              color:rgba(37, 55, 89, 1);
+        }
+        .centerbrandtext2{
+          margin-top: -2.8%;
+              font-weight: 700;
+              font-size: 4vw;
+              font-family: 'Raleway',sans-serif;
+            
+                text-align: center;
+                color:rgba(37, 55, 89, 1);
+          }
+        .centerbrandtext3{
+        
+            font-size: 0vw;
+        }
+            .centerbrandtext4{
+        
+              font-size: 0vw;
+
+          }
+          .centerbrandtext4mb{
+        
+            font-weight: 400;
+            font-size: 3vw;
+            font-family: 'Barlow Condensed',sans-serif;
+          margin-top: -4%;
+              text-align: center;
+              color:rgba(0, 0, 0, 1);
+}
+.brand2centerimages{
+    position: absolute;
+    float: none;
+    margin-left: 0%;
+margin-top: 0%;
+}
+.loyalty{
+    position: absolute;
+    width: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+ 
+}
+
+
+.loyaltytext1{
+    position: absolute;
+font-size: 0px;
+}
+.loyaltytext2{
+    position: absolute;
+    font-size: 0px;
+        }
+    .loyaltytext3{
+        position: absolute;
+        font-size: 0px;
+
+    }
+.loyaltytext4{
+    position: absolute;
+    font-size: 0px;
+        
+}
+.loyaltytext5{
+    position: absolute;
+    font-size: 0px;
+}
+.brand2centerimages1{
+    position: absolute;
+    float: none;
+    margin-left: 0%;
+margin-top: 0%;
+}
+.corporatetext1{
+    position: absolute;
+
+    font-size: 0px;
+}
+    .contentopttext1{
+        position: absolute;
+font-size: 0px;
+        } 
+.contentprotext1{
+    font-size: 0px;
+    position: absolute;
+}   
+
+    .brand2centerimages2{
+        float: none;
+        position: absolute;
+        margin-left: 0%;
+    margin-top: 0%;
+    width: 0%;
+
+}
+.visualiden{float: none;
+    margin-left: 0%;
+margin-top: 0%;
+width: 0%;
+position: absolute;
+}
+.brandimg{float: none;
+    margin-left: 0%;
+margin-top: 0%;
+width: 0%;
+position: absolute;
+
+}
+.loyalty{
+    width: 0%;
+    position: absolute;
+}
+
 }

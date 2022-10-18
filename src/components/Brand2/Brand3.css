@@ -64,5 +64,43 @@
     margin-left: -12%;
     margin-top: .5%;
     } 
-
     
+.brand3lastmargin{
+    margin-top: 27.5%;
+    margin-bottom: 6%;
+}
+
+    @media only screen and (max-width: 750px) {
+        .brand3midmargin{
+            margin-top: 3.7%;
+            margin-bottom: 7%;
+        }
+        
+        .brand3image{
+            position: relative;
+            width: 80%;
+            margin-left: 10%;
+        }
+        
+        .producttext1{
+          font-size: 0px; }
+           
+        .categorytext1{
+            font-size: 0px; 
+            } 
+              
+        .mangtext1{
+            font-size: 0px; 
+            } 
+                  
+        .tagtext1{
+        
+            font-size: 0px; 
+            } 
+        
+.brand3lastmargin{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+    }

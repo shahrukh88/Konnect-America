@@ -2,6 +2,10 @@ import '../Services/Services.css';
 import '../Services/servicecenter.css';
 import '../Services/servicelast.css';
 import './Brand2.css';
+import './Brand2center.css';
+import './Brand2centerimages.css';
+import kamerica from '../Images/kamericalogo.png'
+import kamerica2 from '../Images/kamericalogo2.png'
 
 import React from 'react';
 import Closemin from '../Images/Close-min.png'
@@ -10,14 +14,14 @@ import Navbar from '../Navbar/Navbar';
 import '../Landingpage/Navbar.css';
 
 
-import Br2 from '../Images/brand2/brand2main.jpg'
+import Br2 from '../Images/brand2/brand2main.png'
 import loyalty from '../Images/brand2/loyalty.jpg'
 import corporate from '../Images/brand2/corporate.jpg'
 import webdesign from '../Images/brand2/webdesign.jpg'
 import chat from '../Images/brand2/chat.jpg'
 import headhunting from '../Images/brand2/headhunting.jpg'
 
-import clogo from '../Images/clogo.png'
+import clogo from '../Images/clogo2.png'
 import arrowright from '../Images/arrowright.png'
 
 import Footer from '../Footer/Footer';
@@ -25,6 +29,7 @@ import { useEffect } from 'react';
 import $ from 'jquery';
 
 import {Helmet} from"react-helmet";
+import Navbar2 from '../Navbar/Navbar2';
 function Brand2() {
   useEffect(() => {      
     $(document).ready(function(){
@@ -63,15 +68,19 @@ function Brand2() {
     <div className='navservices'>
     <div className="modalcontainer">
   
-  <button type="button"  className="btn btn-primary" data-toggle="modal" style={{position:"absolute",marginTop:"4%",marginLeft:"90%",backgroundColor:"white",width:"10%",height:"7vh",padding:".3%"}} data-target="#myModal2">
+    <div  className="btn-primary3" data-toggle="modal"  data-target="#myModal2">
   <div class="m1"></div>
 <div class="m2"></div>
 <div class="m3"></div>
 
     <p className='mtext'>Menu</p>
-  </button>
+  </div>
+  <img className='kalogoservices' src={kamerica} alt='kamericalogo'/> 
+
+<img className='kalogo2market' src={kamerica2} alt='kamericalogo'/> 
 
   <Navbar/>
+  <Navbar2/>
 </div>
 
     </div> 
@@ -90,86 +99,105 @@ function Brand2() {
 
         
         <p className='servicetext5'>Improve organic search (SEO) traffic</p>
-        <img className='slogo1' src={clogo} alt='logo'/> 
+        <img className='slogo1ba' src={clogo} alt='logo'/> 
         <p className='servicetext6'>Generate top-of-funnel leads</p>
-        <img className='slogo2' src={clogo} alt='logo'/> 
+        <img className='slogo2ba' src={clogo} alt='logo'/> 
         <p className='servicetext7'>Increase measurable engagement</p>
-        <img className='slogo3' src={clogo} alt='logo'/> 
+        <img className='slogo3ba' src={clogo} alt='logo'/> 
         <p className='servicetext8'>Support the buyer's journey</p>
-        <img className='slogo4' src={clogo} alt='logo'/> 
+        <img className='slogo4ba' src={clogo} alt='logo'/> 
         <p className='servicetext9'>Drive sales growth</p>
-        <img className='slogo5' src={clogo} alt='logo'/> 
+        <img className='slogo5ba' src={clogo} alt='logo'/> 
       <hr className='new4'/>
         </div>
         <div className='servicecenter'>
-       <p className='centerservicetext1'>Our Approach to Building a Best</p>
-       <p className='centerservicetext1one'>Strategy for your brand</p>
-        <p className='centerservicetext2'>Whether you’re a growth-stage startup or an established brand, our brand development services give you the tools you need to attract </p>
-        <p className='centerservicetext2one'>  lifelong customers, align your team, and build a brand that lasts.</p>
+       <p className='centerbrandtext1'>Our Approach to Building a Best</p>
+       <p className='centerbrandtext2'>Strategy for your brand</p>
+        <p className='centerbrandtext3'>Whether you’re a growth-stage startup or an established brand, our brand development services give you the tools you need to attract </p>
+        <p className='centerbrandtext4'>  lifelong customers, align your team, and build a brand that lasts.</p>
+        <p className='centerbrandtext4mb'> Whether you’re a growth-stage startup or an established brand, our brand <br/>development services give you the tools you need to attract  lifelong <br/>customers, align your team, and build a brand that lasts.</p>
   
     <div className='brand2center'>
-        <div className='brand2centerimages'>
-        <img className='loyalty' src={loyalty} alt='logo'/> 
-        <p className='loyaltytext1'>Brand Heart</p>   
-        <p className='loyaltytext2'>Align your business, brand, and story by </p>   
-        <p className='loyaltytext3'> identifying and articulating the core </p>   
-        <p className='loyaltytext4'>principles that make up your brand heart.</p>   
-       
-        </div>
+    <img className='loyaltybrand2img1' src={loyalty} alt='logo'/> 
+    <p className='loyaltybrand2img1txt1'>Brand Heart</p>
+    <p className='loyaltybrand2img1txt2'>Align your business, brand, and story by<br/> identifying and articulating the core <br/>principles that make up your brand heart.</p> 
+   
+    <img className='loyaltybrand2img2' src={corporate} alt='logo'/> 
+    <p className='loyaltybrand2img2txt1'>Brand Guidelines</p>
+    <p className='loyaltybrand2img2txt2'>Preserve your brand integrity with beautifully <br/>designed and easy-to-use guidelines that <br/>keep your content on brand at all times.</p> 
+   
+    <img className='loyaltybrand2img3' src={webdesign} alt='logo'/> 
+    <p className='loyaltybrand2img3txt1'>Visual Identity</p>
+    <p className='loyaltybrand2img3txt2'>Bring your brand to life with an expertly <br/>designed identity that makes you stand <br/>out from your competition.</p> 
+   
 
-        <div className='brand2centerimages1'>
-        <img className='brandimg' src={corporate} alt='logo'/> 
-        <p className='corporatetext1'>Brand Guidelines</p>   
-        <p className='loyaltytext2'>Preserve your brand integrity with beautifully </p>   
-        <p className='loyaltytext3'> designed and easy-to-use guidelines that</p>   
-        <p className='loyaltytext4'>keep your content on brand at all times.</p>   
-       
-        </div>
-
-        <div className='brand2centerimages2'>
-        <img className='visualiden' src={webdesign} alt='logo'/> 
-        <p className='corporatetext1'>Visual Identity</p>   
-        <p className='loyaltytext2'>Bring your brand to life with an expertly </p>   
-        <p className='loyaltytext3'> designed identity that makes you stand </p>   
-        <p className='loyaltytext4'>out from your competition.</p>   
-       
-        </div>
+    <img className='loyaltybrand2img4' src={chat} alt='logo'/> 
+    <p className='loyaltybrand2img4txt1'>Brand Messaging</p>
+    <p className='loyaltybrand2img4txt2'>Make your brand messaging stick with a <br/>framework that helps you tell a consistent,<br/>cohesive brand story.</p> 
+   
+    
+    <img className='loyaltybrand2img5' src={headhunting} alt='logo'/> 
+    <p className='loyaltybrand2img5txt1'>Employer Brand</p>
+    <p className='loyaltybrand2img5txt2'>Attract and retain the best and brightest in <br/>your industry by building an employer<br/>brand that people want to work for.</p> 
 
 
-        <div className='brand2centerimages2'>
-        <img className='loyalty' src={chat} alt='logo'/> 
-        <p className='corporatetext1'>Brand Messaging</p>   
-        <p className='loyaltytext2'>Make your brand messaging stick with a </p>   
-        <p className='loyaltytext3'>framework that helps you tell a consistent,</p>   
-        <p className='loyaltytext4'> cohesive brand story.</p>   
-       
-        </div>
+    <div>
+      
+   </div>
 
-        <div className='brand2centerimages2'>
-        <img className='employimg' src={headhunting} alt='logo'/> 
-        <p className='corporatetext1'>Employer Brand</p>   
-        <p className='loyaltytext2'>Attract and retain the best and brightest in </p>   
-        <p className='loyaltytext3'> your industry by building an employer </p>   
-        <p className='loyaltytext4'>brand that people want to work for.</p>   
-       
-        </div>
 
 
    </div>
-  
-   <hr className='brandline'/>
-   </div>
-   <div className='brandlast'>
-    <p className='slasttext1'>Our Brand Strategy Services</p>
-   <p className='slasttext2'>You wouldn’t build a house without a blueprint, supporting materials, and a solid plan. Likewise, a website requires a great deal<br/>
- of attention and planning. Here are the steps we take toward launching a successful website</p>
- 
+  <div className='brand2centermb'>
+    <div className='brand2centermbcol1'>
+        <img className='loyaltymb' src={loyalty} alt='logo'/> 
+        <p className='loyaltytext1mb'>Brand Heart</p>   
+        <p className='loyaltytext2mb'>Align your business, brand, and story by<br/> identifying and articulating the core <br/>principles that make up your brand heart. </p>   
+    </div>
+    
+
+    <div className='brand2centermbcol1'>
+        <img className='loyaltymb' src={corporate} alt='logo'/> 
+        <p className='loyaltytext1mb' style={{marginLeft:"26%"}}>Brand Guidelines</p>   
+        <p className='loyaltytext2mb'>Preserve your brand integrity with<br/> beautifully  designed and easy-to-use<br/> guidelines that keep your content on brand at all times. </p>   
+    </div>
+    
+    <div className='brand2centermbcol1'>
+        <img className='loyaltymb' src={webdesign} alt='logo'/> 
+        <p className='loyaltytext1mb'>Visual Identity</p>   
+        <p className='loyaltytext2mb'>Bring your brand to life with an expertly<br/> designed identity that makes you stand <br/>out from your competition. </p>   
+    </div>
+    
+
+    <div className='brand2centermbcol1'>
+        <img className='loyaltymb' src={chat} alt='logo'/> 
+        <p className='loyaltytext1mb' style={{marginLeft:"26%"}}>Brand Messaging</p>   
+        <p className='loyaltytext2mb'>Make your brand messaging stick with a <br/>framework that helps you tell a <br/>consistent,cohesive brand story. </p>   
+    </div>
+    
+
+    <div className='brand2centermbcol2'>
+        <img className='loyaltymb2'  src={headhunting} alt='logo'/> 
+        <p className='loyaltytext1mb' style={{marginLeft:"38%",marginTop:"2%"}}>Brand Messaging</p>   
+        <p className='loyaltytext2mb' style={{marginLeft:"1%",marginTop:"-4%"}}>Attract and retain the best and brightest in<br/>your industry by building an employer<br/>brand that people want to work for.</p>   
+    </div>
+    
+ </div>
+ <hr className='brandline2mb'/>
+  <div className='brandlast'>
+  <p className='slasttext1brand'>Our Brand Strategy Services</p>
+ <p className='slasttext2brand'>You wouldn’t build a house without a blueprint, supporting materials, and a solid plan. Likewise, a website requires a great deal<br/>
+of attention and planning. Here are the steps we take toward launching a successful website</p>
+
 <p className='info1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brand Story&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Funnel Mapping &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logo Identity</p>
 <p className='info2one'>Market Positioning&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Market & Competitive Research &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marketing Strategy</p>
 <p className='info3one'>Sales Enablement&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Message Development</p>
 <p className='info4one'>Brand Voice</p>
 
-   </div>
+ </div>
+
+    </div>
+   
 <div className='smarglast'></div>
    <Footer/>
 

@@ -1,0 +1,47 @@
+        <div className='brand2centerimages'>
+        <img className='loyalty' src={loyalty} alt='logo'/> 
+        <p className='loyaltytext1'>Brand Heart</p>   
+        <p className='loyaltytext2'>Align your business, brand, and story by </p>   
+        <p className='loyaltytext3'> identifying and articulating the core </p>   
+        <p className='loyaltytext4'>principles that make up your brand heart.</p>   
+       
+        </div>
+
+        <div className='brand2centerimages1'>
+        <img className='brandimg' src={corporate} alt='logo'/> 
+        <p className='corporatetext1'>Brand Guidelines</p>   
+        <p className='loyaltytext2'>Preserve your brand integrity with beautifully </p>   
+
+        <p className='loyaltytext3'> designed and easy-to-use guidelines that</p>   
+        <p className='loyaltytext4'>keep your content on brand at all times.</p>   
+       
+        </div>
+
+        <div className='brand2centerimages2'>
+        <img className='visualiden' src={webdesign} alt='logo'/> 
+        <p className='corporatetext1'>Visual Identity</p>   
+        <p className='loyaltytext2'>Bring your brand to life with an expertly </p>   
+        <p className='loyaltytext3'> designed identity that makes you stand </p>   
+        <p className='loyaltytext4'>out from your competition.</p>   
+       
+        </div>
+
+
+        <div className='brand2centerimages2'>
+        <img className='loyalty' src={chat} alt='logo'/> 
+        <p className='corporatetext1'>Brand Messaging</p>   
+        <p className='loyaltytext2'>Make your brand messaging stick with a </p>   
+        <p className='loyaltytext3'>framework that helps you tell a consistent,</p>   
+        <p className='loyaltytext4'> cohesive brand story.</p>   
+       
+        </div>
+
+        <div className='brand2centerimages2'>
+        <img className='employimg' src={headhunting} alt='logo'/> 
+        <p className='corporatetext1'>Employer Brand</p>   
+        <p className='loyaltytext2'>Attract and retain the best and brightest in </p>   
+        <p className='loyaltytext3'> your industry by building an employer </p>   
+        <p className='loyaltytext4'>brand that people want to work for.</p>   
+       
+        </div>
+

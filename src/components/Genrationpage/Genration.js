@@ -24,6 +24,7 @@ import Navbar from '../Navbar/Navbar';
 
 import '../Landingpage/Navbar.css';
 import {Helmet} from"react-helmet";
+import Navbar2 from '../Navbar/Navbar2';
 
 function Genration() {
    useEffect(() => {   
@@ -69,7 +70,7 @@ function Genration() {
     </div>
     <div className='main-generation'>
     
-  <button type="button"  className="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" style={{position:"absolute",marginTop:"5%",marginLeft:"90%",backgroundColor:"white",width:"10%",height:"7vh",padding:".3%"}} >
+  <button type="button"  className="btn-primary3" data-toggle="modal" data-target=".bd-example-modal-lg"  >
   <div class="m1"></div>
 <div class="m2"></div>
 <div class="m3"></div>
@@ -79,6 +80,7 @@ function Genration() {
   
 
   <Navbar/>
+  <Navbar2/>
     <img className='wsky' src={womensky} alt='wsky'/> 
    <p className='g1text'>Scale your sales with our</p>
    <p className='g2text'>Lead Generations Service</p>

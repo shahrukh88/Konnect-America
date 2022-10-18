@@ -61,10 +61,15 @@ margin-top: 25%;
     width: 100%;
 
 }
+.careerimage4mb{
+
+    width: 0%;
+
+}    
 .priority2{
     position: absolute;
      background-color: rgba(217, 4, 61, 1);
-    margin-top: -20%;
+    margin-top: -21.5%;
     width: 70%;
     margin-left: 15%;
     opacity: .8;
@@ -96,4 +101,49 @@ margin-left: 5%;
     font-weight: 400;
     color: #FFFFFF;
   padding-bottom: 2%;
+}
+@media only screen and (max-width: 750px) {
+    .careercenter3{
+        margin-top: 0%;
+        }
+        .careerimage4{
+            margin-top: 5%;
+            width: 0%;
+        
+        }       
+        .careerimage4mb{
+            margin-top: 5%;
+            width: 100%;
+        
+}
+.priority2{
+    position: absolute;
+     background-color: rgba(217, 4, 61, 1);
+    margin-top: -27%;
+    width: 80%;
+    margin-left: 10%;
+    opacity: .8;
+}
+.careerimage5{
+    margin-top: 4%;
+    margin-left: 4%;
+    width: 8%;
+
+}
+.digital2{
+
+margin-top: -6.3%;
+margin-left: 15%;
+    font-size:3.7vw;
+
+  
+}
+.digital3{
+margin-left: 5%;
+    font-size:2.8vw;
+    margin-top: -3.5%;
+    font-weight: 400;
+    color: #FFFFFF;
+  padding-bottom: 2%;
+}       
 }

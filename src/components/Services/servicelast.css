@@ -20,6 +20,9 @@
       color:rgba(0, 0, 0, 1);
 
 }
+.slasttext1mba,.slasttext1mbb,.slasttext2mb,.rdesign2mb,.rdesign5mb,.rdesign6mb,.rdesign4mb{
+    font-size: 0px;
+}
 .v9{
 margin-top: 3%;
 margin-left: 32%;
@@ -140,4 +143,187 @@ cursor: pointer;
     }
     .smarglast{
         margin-top: 4%;
+    }
+    @media only screen and (max-width: 750px) {
+        .slasttext1,.rdesign4{
+            font-size: 0px;
+        }
+        .slasttext1mba{
+            padding-top: 2%;
+            font-weight: 700;
+            font-size: 5vw;
+            font-family: 'Raleway',sans-serif;
+          
+              text-align: center;
+              color:rgba(37, 55, 89, 1);
+        }
+        .slasttext1mbb{
+            margin-top: -4%;
+            font-weight: 700;
+            font-size: 5vw;
+            font-family: 'Raleway',sans-serif;
+          
+              text-align: center;
+              color:rgba(37, 55, 89, 1);
+}
+.slasttext2{
+    
+     font-size: 0vw;
+    
+}
+.slasttext2mb{
+    
+    font-weight: 400;
+    font-size: 3vw;
+    font-family: 'Barlow Condensed',sans-serif;
+  margin-top: -5%;
+      text-align: center;
+      color:rgba(0, 0, 0, 1);
+
+}
+.v9{
+    margin-top: 3%;
+    margin-left: 22%;
+    width: 25%;
+    cursor: pointer;
+    }
+    .v9text{
+    position: absolute;
+    margin-left: 26%;
+    margin-top: -6.5%;
+        font-weight: 700;
+        font-size: 3.5vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color:#ffff;
+    
+    }
+    .v10{
+        position: absolute;
+        margin-top: 3%;
+        margin-left: -8.8%;
+        width: 40.2%;
+    cursor: pointer;    
+    }
+    .v10text{
+        position: absolute;
+        margin-left: 47.9%;
+        margin-top: -6.5%;
+            font-weight: 700;
+            font-size: 3.5vw;
+            font-family: 'Raleway',sans-serif;
+          
+        cursor: pointer;
+              text-align: center;
+              color: #253759;
+}
+.rdesign1{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 2%;
+        font-weight: 500;
+        font-size: 5vw;
+        font-family: 'Barlow Condensed',sans-serif;
+      
+          text-align: left;
+          color: #D9043D;
+                      
+}
+.rdesign2{
+        font-size: 0vw;
+                      
+}
+.rdesign2mb{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 6%;
+        font-weight: 400;
+        font-size: 3.5vw;
+        font-family: 'Barlow Condensed',sans-serif;
+      
+          text-align: left;
+          color: rgba(52, 52, 52, 1)
+          ;
+                      
+}
+.rdesign3{
+ position: absolute;
+    margin-left: 33%;
+    margin-top: 27%;
+        font-weight: 500;
+        font-size: 5vw;
+        font-family: 'Barlow Condensed',sans-serif;
+      
+          text-align: left;
+          color: #D9043D;
+                      
+}
+.rdesign4mb{
+    position: absolute;
+    margin-left: -36%;
+    margin-top: 35%;
+        font-weight: 400;
+        font-size: 3.5vw;
+        font-family: 'Barlow Condensed',sans-serif;
+      
+          text-align: right;
+          color: rgba(52, 52, 52, 1)
+          ;
+                      
+}
+.rdesign11{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 53%;
+        font-weight: 500;
+        font-size: 5vw;
+        font-family: 'Barlow Condensed',sans-serif;
+      
+          text-align: left;
+          color: #D9043D;
+                      
+}
+.rdesign5mb{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 60%;
+        font-weight: 400;
+        font-size: 3.5vw;
+        font-family: 'Barlow Condensed',sans-serif;
+      
+          text-align: left;
+          color: rgba(52, 52, 52, 1)
+          ;
+                      
+}
+.rdesign33{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 77%;
+        font-weight: 500;
+        font-size: 5vw;
+        font-family: 'Barlow Condensed',sans-serif;
+      
+          text-align: left;
+          color: #D9043D;
+                      
+}
+.rdesign6mb{
+    position: absolute;
+    margin-left: -36%;
+    margin-top: 84%;
+        font-weight: 400;
+        font-size: 3.5vw;
+        font-family: 'Barlow Condensed',sans-serif;
+      
+          text-align: right;
+          color: rgba(52, 52, 52, 1)
+          ;
+                      
+}
+.smarglast{
+    margin-top: 105%;
+}
     }

@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .colcontainert {
+    display: table;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .colt {
+    display: table-cell;
+    padding: 16px;
+    border: 2px solid  #D9043D;
+  width: 33.33%;
+  color: #253759;
+  }
+.colt:hover{
+    background-color: #D9043D;
+    color: white;
+}  
+  .colcontainertmb {
+    display: table;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+  .coltmb {
+    display: table-cell;
+    padding: 0px;
+    border: 0px solid;
+  width: 0%;
+  color: #253759;
+  }
+
+  @media only screen and (max-width: 750px) {
+  .arrowland2,.arrowland3{
+    width: 0px;
+    border: 0px;
+  }
+    .colcontainert {
+        display: table;
+        width: 90%;
+        margin-top: 2%;
+        margin-left: 5%;
+      }
+      .colt {
+        display: table-cell;
+        padding: 0px;
+        border: 0px solid;
+      width: 0%;
+      color: #253759;
+      }
+      
+      .colcontainertmb {
+        display: table;
+        width: 90%;
+        margin-top: 2%;
+        margin-left: 5%;
+      }
+      .coltmb {
+        display: table-cell;
+        padding: 16px;
+        border: 2px solid #D9043D;
+      width: 48%;
+      color: #253759;
+      }
+      .coltmb:hover{
+        background-color: #D9043D;
+        color: white;
+    }   
+}

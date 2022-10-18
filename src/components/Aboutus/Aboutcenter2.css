@@ -106,3 +106,124 @@ border: 3px solid rgba(217, 4, 61, 1);
 width: 40%;
 margin-left: 50%;
 }
+@media only screen and (max-width: 750px) {
+  .columnaboutcenter1 {
+    float: left;
+    width: 0%;
+    }
+  
+  .columnaboutcenter2 {
+    float: left;
+    width: 0%;
+    }
+  /* Clear floats after the columns */
+  .rowaboutcenter:after {
+    content: "";
+    display: none;
+    clear: none;
+  }
+  .rowaboutcenter:after {
+    content: "";
+    display: none;
+    clear: none;
+  }
+ 
+  .columnaboutcenter11 {
+    float: left;
+    width: 0%;
+    }
+  
+  .columnaboutcenter22 {
+    float: left;
+    width:0%;
+    }
+  /* Clear floats after the columns */
+  .rowaboutcenter2:after {
+    content: none;
+    display: none;
+    clear: none;
+  }
+  hr.aboutline2 {
+    margin-top: 0%;
+  border: 0px solid rgba(217, 4, 61, 1);
+  width: 0%;
+  margin-left: 0%;
+  }
+  .aboutimage3{
+    width: 0%;
+    margin-top: 0%;
+  }
+  .aboutcentertext1{
+    font-family: 'Barlow Condensed';
+margin-top: 0%;
+    text-align: left;
+       margin-left: 0%;
+             font-weight: 700;
+          font-size: 0vw;
+          color: #D9043D;
+  }
+  .aboutcentertext2{
+    font-family: 'Raleway',sans-serif;
+    margin-top: 0%;
+    text-align: left;
+       margin-left: 0%;
+             font-weight: 0;
+          font-size: 0vw;
+          color: rgba(37, 55, 89, 1);
+  }  
+  .aboutcentertext3{
+    font-family: 'Barlow Condensed';
+    margin-top: 0%;
+    text-align: left;
+       margin-left: 0%;
+             font-weight: 0;
+          font-size: 0vw;
+color: rgba(0, 0, 0, 1); 
+ }  
+ hr.aboutline3 {
+  margin-top: 0%;
+border: 0px solid rgba(217, 4, 61, 1);
+width: 0%;
+margin-left: 0%;
+}
+            
+
+
+/* Clear floats after the columns */
+
+.aboutcentertext11{
+  font-family: 'Barlow Condensed';
+margin-top:0%;
+  text-align: right;
+     margin-right: 0%;
+           font-weight: 0;
+        font-size: 0vw;
+        color: #D9043D;
+}
+.aboutcentertext22{
+  font-family: 'Raleway',sans-serif;
+  margin-top: 0%;
+  text-align: right;
+     margin-right: 0%;
+           font-weight: 0;
+        font-size: 0vw;
+        color: rgba(37, 55, 89, 1);
+}  
+.aboutcentertext33{
+  font-family: 'Barlow Condensed';
+  margin-top: 0%;
+  text-align: right;
+     margin-right: 0%;
+           font-weight: 0;
+        font-size: 0vw;
+color: rgba(0, 0, 0, 1); 
+}
+
+hr.aboutline4 {
+  margin-top: 0%;
+border: 0px solid rgba(217, 4, 61, 1);
+width: 0%;
+margin-left: 0%;
+}
+
+}

@@ -5,7 +5,9 @@
   width: 100%;
 
 }
-
+.bgslide{
+  width: 100%;
+}
 .float2-container2{
     margin-top: -.3%;
     width: 100%;
@@ -31,8 +33,18 @@
     text-align: left;
     margin-left: 8%;
     font-weight: 700;
-    font-family: 'Barlow Condensed',sans-serif;
-    font-size: 2.781844802342606vw;
+    font-family: 'Raleway',sans-serif;
+    font-size: 2.581844802342606vw;
+     color: #253759;
+  }
+  
+  .ctxt2brek{
+    margin-top: -3.8%;
+    text-align: left;
+    margin-left: 8%;
+    font-weight: 700;
+    font-family: 'Raleway',sans-serif;
+    font-size: 2.581844802342606vw;
      color: #253759;
   }
   .ctxt3{
@@ -72,7 +84,57 @@ hr.linemain{
     width: 88%;
     margin-top: 10%;
     margin-left: 2%;
+    
+
   }
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+  }
+  .active.fade-left {
+    animation: fade-left 1s ease-in;
+  }
+  .reveal {
+    position: relative;
+    opacity: 0;
+  }
+  
+  .reveal.active {
+    opacity: 1;
+  }
+  
+  .active.fade-right {
+    animation: fade-right 1s ease-in;
+  }  
 
   .float3-container3{
 
@@ -107,8 +169,17 @@ hr.linemain{
     text-align: right;
     margin-right: 10%;
     font-weight: 700;
-    font-family: 'Barlow Condensed',sans-serif;
-    font-size: 2.781844802342606vw;
+    font-family: 'Raleway',sans-serif;
+    font-size: 2.581844802342606vw;
+     color: #253759;
+  }
+  .ctxt22brek{
+    margin-top: -3.8%;
+    text-align: right;
+    margin-right: 10%;
+    font-weight: 700;
+    font-family: 'Raleway',sans-serif;
+    font-size: 2.581844802342606vw;
      color: #253759;
   }
   .ctxt33{
@@ -243,12 +314,20 @@ hr.linemain{
     text-align: left;
     margin-left: 8%;
     font-weight: 700;
-    font-family: 'Barlow Condensed',sans-serif;
-    font-size: 7vw;
+    font-family: 'Raleway',sans-serif;
+    font-size: 5vw;
+     color: #253759;
+  }
+  .ctxt2mbbr{
+    margin-top: -5%;
+    text-align: left;
+    margin-left: 8%;
+    font-weight: 700;
+    font-family: 'Raleway',sans-serif;
+    font-size: 5vw;
      color: #253759;
   }
   .ctxt3mb{
-    margin-top: -2%;
     text-align: left;
     margin-left: 8%;
     font-weight: 400;
@@ -313,12 +392,21 @@ hr.linemainmb{
     text-align: right;
     margin-right: 10%;
     font-weight: 700;
-    font-family: 'Barlow Condensed',sans-serif;
-    font-size: 7vw;
+    font-family: 'Raleway',sans-serif;
+    font-size: 5vw;
+     color: #253759;
+  }
+  .ctxt22brek{
+    margin-top: -5%;
+    text-align: right;
+    margin-right: 10%;
+    font-weight: 700;
+    font-family: 'Raleway',sans-serif;
+    font-size: 5vw;
      color: #253759;
   }
   .ctxt33{
-    margin-top: -1%;
+    margin-top: -2.5%;
     text-align: right;
     margin-right: 10%;
     font-weight: 400;

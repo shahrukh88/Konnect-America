@@ -101,3 +101,271 @@ function Navbar() {
 
 export default Navbar;
 
+//
+<div className="dropdown-content">
+  <div className='boxnav'>
+  <p className='boxnavtext1'> Advertisment Campagin</p>
+
+ <p className='boxnavtext2' >Social Media Advertisment</p>
+  <p className='boxnavtext2' >Videography</p>
+  <p className='boxnavtext2' >Campagin Strategy</p>
+  <p className='boxnavtext2' >Build Traction</p>
+  <p className='boxnavtext2' >Generate target Audience</p>
+  </div>
+<div className='boxnav2'>
+<p className='boxnavtext1'> Brand Strategy</p>
+ 
+ <p className='boxnavtext2' >Visual Identity</p>
+
+ <p className='boxnavtext2' >Brand Messaging</p>
+ <p className='boxnavtext2' >Marketing Strategy</p>
+  <p className='boxnavtext2' >Brand Guidelines</p>
+  <p className='boxnavtext2' >Engagement Growth</p>
+
+
+  </div>
+  <div className='boxnav3'>
+  <p className='boxnavtext1'> Website Design Strategy</p>
+  <p  className='boxnavtext2' >Search Engine Optimization (SEO)</p>
+ <p className='boxnavtext2' >UI/UX Design</p>
+  <p className='boxnavtext2' >Wireframing & Userflow</p>
+  <p className='boxnavtext2' >Website Optimization</p>
+  <p className='boxnavtext2' >E-Commerce Implementation</p>
+
+</div>
+<div className='boxnav4'>
+  <p className='boxnavtext1'> Content Optimization</p>
+  <p  className='boxnavtext2' >Product Data entry</p>
+ <p className='boxnavtext2' >Product Categorization</p>
+  <p className='boxnavtext2' >Products Data Management</p>
+  <p className='boxnavtext2' >Search Result Optimization</p>
+  <p className='boxnavtext2' >Image & Video Tagging</p>
+  </div>
+  <div className='boxnav5'>
+  <p className='boxnavtext1'> Content Marketing</p>
+  <p  className='boxnavtext2' >Content Creation & Development</p>
+ <p className='boxnavtext2' >Promotion of Content</p>
+  <p className='boxnavtext2' >Content Optimization</p>
+  <p className='boxnavtext2' >Content Marketing</p>
+  <p className='boxnavtext2' style={{visibility:"hidden"}} >Content Optimization</p>
+
+<p className='boxnavtext3' ></p>
+
+
+</div>
+<div className='boxnav6'>
+<p className='boxnavtext1'>Lead Generation </p>
+
+<p className='boxnavtext2' >Lead Generation</p>
+
+
+ <p className='boxnavtext2' >Verified Authethic Leads</p>
+  <p className='boxnavtext2' >Right Leads for you</p>
+  <p className='boxnavtext2' >Emailing Campagin Lists</p>
+  <p className='boxnavtext2' t>Mobile Direct Contacts</p>
+
+
+  </div>
+</div>
+
+
+
+///
+<li ><a className='listyle' href='./form'>Form</a></li>
+      <li ><a className='listyle' href='./marketing'>Marketing</a></li>
+      <li ><a className='listyle' href='/brand'>Brand</a></li>
+      <li ><a className='listyle' href='./brand2'>Brand Strategy</a></li>
+   /////////////
+
+
+   <div className='centerlanding22'>
+    <div className="float5-container5">
+    
+    <div className="float5-child5">
+    <div className='scon7 '>
+    <img className='ctwolog1' src={ctwologo1} alt='cimage'/> 
+    <p className='centertwotxt1'>WEB DESIGN STRATEGY</p>
+    <p className='centertwotxt2'>Designing a better brand</p>
+    <p className='centertwotxt2brek'>experience.</p>
+    <p className='centertwotxt3'>It’s no secret that a website is one of the most important pieces of your digital marketing strategy. We can create a website tailored to your needs that will be easy to use, functional, and polished.</p>
+    <a href='#'>
+    <img className='arrowland' src={arrow} alt='arrow'/> 
+    </a>
+    </div>
+    </div>
+    
+    <div className="float5-child5">
+    <div className='scon2 '>
+    <img className='ctwolog1' src={ctwologo2} alt='cimage'/> 
+    <p className='centertwotxt1'>BRAND CREATION</p>
+    <p className='centertwotxt2'>Create a brand that</p>
+    <p className='centertwotxt2brek'>stands out.</p>
+    
+    <p className='centertwotxt3'>A strong brand is a successful business. We will evaluate your current brand and find ways to strengthen it and make it memorable.</p>
+    <br/><br/>
+    <a href='#'>
+    
+    <img className='arrowland' src={arrow} alt='arrow'/> 
+    
+    </a>
+    
+    </div>
+    </div>
+    
+    <div className="float5-child5">
+    <div className='scon3 '>
+    <img className='ctwolog3' src={ctwologo4} alt='cimage'/> 
+    <p className='centertwotxt1'>CONTENT MARKETING</p>
+    <p className='centertwotxt2'>Get the most out of your content </p>
+    <p className='centertwotxt2brek'>marketing efforts.</p>
+    
+    <p className='centertwotxt3'>Running ads isn't enough to reach potential customers or grow your business, we will create content that will resonate with your audience and turn them into your brand ambassadors.</p><a href='#'>
+    <img className='arrowland' src={arrow} alt='arrow'/> 
+    </a>
+    </div>
+    </div>
+    
+    
+    </div>
+    
+    
+    <div className="float5-container5">
+    
+    <div className="float5-child5">
+    <div className='scon4 '>
+    <img className='ctwolog5' src={ctwologo5} alt='cimage'/> 
+    <p className='centertwotxt1'>CONTENT OPTIMIZATION</p>
+    <p className='centertwotxt2'>Designing a better brand</p>
+    <p className='centertwotxt2brek'>experience.</p>
+    <p className='centertwotxt3'>It's important that your audience   engages with your content. We’ll optimize your content for maximum exposure across all channels, so all eyes are on you!<br/><span style={{   visibility: "hidden"}}>shah hshahah shahahshahs</span> </p>
+    <a href='#'>
+    <img className='arrowland' src={arrow} alt='arrow'/> 
+    </a>
+    </div>
+    </div>
+    
+    <div className="float5-child5">
+    <div className='scon5 '>
+    <img className='ctwolog1' src={ctwologo3} alt='cimage'/> 
+    <p className='centertwotxt1'>ADVERTISING CAMPAGIN</p>
+    <p className='centertwotxt2'>A better way to advertise.<br/><span style={{   visibility: "hidden"}}>shah hshahah </span></p>
+    <p className='centertwotxt3al'>Advertisement Campaign (Media Buying) Do you need more visibility? More customers? More growth? We will strategically buy ads on the best channels to reach the right audience for your business.
+    <p><span style={{   visibility: "hidden"}}>shah hshahah shahahshahs s</span></p>
+    
+    </p><a href='#'>
+    <img className='arrowland' src={arrow} alt='arrow'/> 
+    </a>
+    </div>
+    </div>
+    
+    <div className="float5-child5">
+    <div className='scon6 '>
+    <img className='ctwolog1' src={ctwologo6} alt='cimage'/> 
+    <p className='centertwotxt1'>LEAD GENERATION</p>
+    <p className='centertwotxt2'>Get leads that matter.<br/><span style={{   visibility: "hidden"}}>shah hshahah </span></p>
+    <p className='centertwotxt3al'>A business can never survive without effective lead generation process, we will generate leads of various types based on your needs, ensuring that quality is compromised.</p>
+    <p><span style={{   visibility: "hidden"}}>shah hshahah shahahshahs s</span></p>
+    <a href='#'>
+    <img className='arrowland' src={arrow} alt='arrow'/> 
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+
+    ////////////
+    <div className="float5mb-container5mb">
+
+      <div className="float5mb-child5mb">
+      <div className='scon7mb '>
+      <img className='ctwolog1mb' src={ctwologo1} alt='cimage'/> 
+      <p className='centertwotxt1mb'>WEB DESIGN STRATEGY</p>
+      <p className='centertwotxt22mb'>Designing a better brand
+      experience.</p>
+      <p className='centertwotxt33mb'>It’s no secret that a website is one of the most important pieces of your digital marketing strategy. We can create a website tailored to your needs that will be easy to use, functional, and polished.
+      
+      </p>
+      <a href='#'>
+      <img className='arrowmb' src={arrow} alt='arrow'/> 
+      </a>
+      </div>
+      </div>
+      
+      
+      
+      <div className="float5mb-child5mb">
+      <div className='scon2mb'>
+      <img className='ctwolog2mb' src={ctwologo2} alt='cimage'/> 
+      <p className='centertwotxt1mb'>BRAND CREATION</p>
+      <p className='centertwotxt2mb'>Create a brand that <br/>stands out.</p>
+      <p className='centertwotxt3mb'>A strong brand is a successful business. We will evaluate your current brand and find ways to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strengthen it and make it&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; memorable.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style={{   visibility: "hidden"}}> sssssssssssssssssssssshshahah </span>
+      </p>
+      <a href='#'>
+      <img className='arrowmb' src={arrow} alt='arrow'/> 
+      </a>
+      </div>
+      </div>
+      
+      </div>
+      
+      
+      <div className="float5mb-container5mb">
+      
+      <div className="float5mb-child5mb">
+      <div className='scon4mb '>
+      <img className='ctwolog4mb' src={ctwologo4} alt='cimage'/> 
+      <p className='centertwotxt1mb'>CONTENT OPTIMIZATION</p>
+      <p className='centertwotxt2mb'>Designing a better brand
+      experience.</p>
+      <p className='centertwotxt3mb'>It's important that your audience   engages with your content. We’ll optimize your content for maximum exposure across all channels, so all &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; eyes are on you!<span style={{   visibility: "hidden"}}>shah hshahah shahahshahs ssssssssssssss</span></p>
+      
+      <a href='#'>
+        
+      <img className='arrowmb' src={arrow}  alt='arrow'/> 
+      </a>
+      </div>
+      </div>
+      
+      <div className="float5mb-child5mb">
+      <div className='scon3mb '>
+      <img className='ctwolog3mb' src={ctwologo3} alt='cimage'/> 
+      <p className='centertwotxt1mb'>CONTENT MARKETING</p>
+      <p className='centertwotxt2mb'>Get the most out of your content marketing efforts.</p>
+      <p className='centertwotxt3mb'>Running ads isn't enough to reach potential customers or grow your business, we will create content that will resonate with your audience and turn them into your brand ambassadors.</p>
+      <a href='#'>
+      
+      <img className='arrowmb2' src={arrow} alt='arrow'/> 
+      </a>
+      </div>
+      </div>
+      </div>
+      
+      
+      
+      
+      <div className="float5mb-container5mb">
+      
+      <div className="float5mb-child5mb">
+      <div className='scon5mb '>
+      <img className='ctwolog5mb' src={ctwologo5} alt='cimage'/> 
+      <p className='centertwotxt1mb'>ADVERTISING CAMPAGIN</p>
+      <p className='centertwotxt2mb'>A better way to advertise.</p>
+      <p className='centertwotxt3mb'>Advertisment Campagin(Media Buying)Do you need more visibility?More customers?More growth?We will strategically buy ads on the best channels to reach the right audience for your business.</p><a href='#'>
+      <img className='arrowmb' src={arrow} alt='arrow'/> 
+      </a>
+      </div>
+      </div>
+      
+      <div className="float5mb-child5mb">
+      <div className='scon6mb '>
+      <img className='ctwolog6mb' src={ctwologo6} alt='cimage'/> 
+      <p className='centertwotxt1mb'>LEAD GENERATION</p>
+      <p className='centertwotxt2mb'>Get leads that matter.</p>
+      <p className='centertwotxt3mb'>A business can never survive without effective lead generation process, we will generate leads of various types based on your needs,ensuring that quality is compromised.</p>
+      <a href='#'>
+      <img className='arrowmb' src={arrow} alt='arrow'/> 
+      </a>
+      </div>
+      </div>
+      </div>

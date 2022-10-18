@@ -1,9 +1,35 @@
 .formdiv{
     margin-left: 12%;
 }
+
+.btn-primary3 {
+    position:absolute !important;
+    margin-top: 4% !important;
+    margin-left:90% !important;
+    background-color:white !important;
+    width:10% !important;
+    height:6vh !important;
+    padding:.3% !important ;
+    padding-left:1% !important ;
+    border: none !important;
+  }
 .Formmainimage{
     width: 100%;
 }
+.Formmainimagemb{
+    width: 0%;
+}
+.kalogoform{
+    margin-top: -93.2%;
+    width: 18%;
+    margin-left: 5%;
+    
+}
+
+
+    .kalogo2form{
+      width: 0%;
+      }
 .Formtext1{
     
     position: absolute;
@@ -17,6 +43,7 @@
     
     color: #FFFFFF;
 }
+
 .Formtext2{
     
     position: absolute;
@@ -43,10 +70,35 @@
     
     color: #FFFFFF;
 }
+.Formtext4{
+    
+    position: absolute;
+    font-style: normal;
+font-weight: 400;
+    margin-top: -16%;
+    margin-left: 63%;
+    font-family: 'Barlow Condensed';
+    
+
+    font-size:1.4vw;
+    
+    color: #FFFFFF;
+}
 .Formcenter{
     margin-top: 5%;
 }
 .Formcentertext1{
+ 
+    margin-top: -3%;
+    margin-left: 12%;
+    font-family: 'Raleway',sans-serif;
+text-align: left;    
+    font-weight: 700;
+    font-size:4vw;
+    
+    color: #253759;
+}
+.Formcentertext1a{
  
     
     margin-left: 12%;
@@ -54,7 +106,7 @@
 text-align: left;    
     font-weight: 700;
     font-size:4vw;
-    
+    margin-top: -2%;
     color: #253759;
 }
 .Formcentertext2{
@@ -67,6 +119,9 @@ text-align: left;
     font-size:1.7vw;
     
     color: #000000;
+}
+.Formcentertext2mb{
+    font-size: 0px;
 }
 
 .Formcentertext3{
@@ -100,7 +155,7 @@ text-align: left;
         font-family: 'Raleway',sans-serif;
         margin-top: 1%;
         
-        font-size: 1vw;
+        font-size: 1.2vw;
         font-weight: 600;
         color: #D9043D;  
         }
@@ -111,10 +166,21 @@ text-align: left;
             font-family: 'Raleway',sans-serif;
             margin-top: 1%;
             
-            font-size: 1vw;
+            font-size: 1.2vw;
             font-weight: 600;
             color: #D9043D;  
-            }
+}
+
+.formfnametext2sal{
+    text-align: left;
+     margin-left: 0%;
+    font-family: 'Raleway',sans-serif;
+    margin-top: 1%;
+    
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #D9043D;  
+    }
 
             .formfnametext3{
                 text-align: left;
@@ -122,7 +188,7 @@ text-align: left;
                 font-family: 'Raleway',sans-serif;
                 margin-top: 1%;
                 
-                font-size: 1vw;
+                font-size: 1.2vw;
                 font-weight: 600;
                 color: #D9043D;  
                 }
@@ -132,7 +198,7 @@ text-align: left;
 font-family: 'Raleway',sans-serif;
  margin-top: 1%;
                     
- font-size: 1vw;
+ font-size: 1.2vw;
  font-weight: 600;
 color: #D9043D;  
 }
@@ -142,7 +208,7 @@ color: #D9043D;
    font-family: 'Raleway',sans-serif;
     margin-top: 1%;
                        
-    font-size: 1vw;
+    font-size: 1.2vw;
     font-weight: 600;
    color: #D9043D;  
    }    
@@ -163,7 +229,7 @@ color: #D9043D;
    font-family: 'Raleway',sans-serif;
     margin-top: 1%;
                        
-    font-size: 1vw;
+    font-size: 1.2vw;
     font-weight: 600;
    color: #D9043D;  
    }    
@@ -185,9 +251,9 @@ color: #D9043D;
     position: absolute;
     text-align: left;
    font-family: 'Raleway',sans-serif;
-    margin-top: -1.8%;
-     margin-left: 10%;                  
-    font-size: 1vw;
+    margin-top: -2%;
+     margin-left: 12%;                  
+    font-size: 1.2vw;
     font-weight: 600;
     color: #253759;  
     
@@ -202,12 +268,347 @@ color: #D9043D;
 .formfnametexthtml{
     text-align: left;
    font-family: 'Raleway',sans-serif;
-    margin-top: 1%;                
-    font-size: 1vw;
+    margin-top: 1%;  
+    margin-left: 0%;              
+    font-size: 1.2vw;
     font-weight: 600;
    color: #D9043D;  
    }    
  
  .formmmarglast{
     margin-top: 5%;
- }     
+ }  
+ .selectpostion{
+    font-size: 1vw;
+    color: #D9043D;
+   
+ }
+ .upload{
+    display:block !important;
+    width:15% !important;
+    padding:.5% !important;
+    background-color:#D9043D !important;
+    color:white !important;
+    border-style:none !important;
+    font-family:"Raleway" !important;
+    font-size:1.2vw !important;
+ }
+
+ @media only screen and (max-width: 800px) {
+    
+    .btn-primary3 {
+      position:absolute !important;
+      margin-top: 0% !important;
+      margin-left:0% !important;
+      background-color:white !important;
+      width:0% !important;
+      height:0vh !important;
+      padding:0% !important ;
+      border: none !important;
+    }
+    
+    }
+    @media only screen and (max-width: 750px) {
+        .Formmainimage{
+            width: 0%;
+        }
+        .Formmainimagemb{
+            width: 100%;
+}
+.kalogo2form{
+    margin-top: -120.2%;
+    width: 10%;
+    margin-left: 5%;
+    
+    }
+    .kalogoform{
+      width: 0%;
+      }
+.Formtext1{
+    
+    
+    margin-top: -35%;
+    margin-left: 58%;
+    font-size:3vw;
+    
+ }
+.Formtext2{
+    
+    margin-top: -33%;
+    margin-left: 57%;
+    font-size:7vw;
+    
+ }
+.Formtext3{
+    
+    
+    margin-top: -27%;
+    margin-left: 57%;
+    font-size:7vw;
+    
+ }    
+ .Formtext4{
+    
+    margin-top: -25%;
+    margin-left: 57%;
+    font-size:2.5vw;
+    
+    color: #FFFFFF;
+}  
+.Formcentertext1{
+ 
+    
+    margin-left: 5%;
+    font-family: 'Raleway',sans-serif;
+text-align: left;    
+    font-weight: 700;
+    font-size:7vw;
+    
+    color: #253759;
+}
+.Formcentertext1a{
+ 
+    
+    margin-left: 5%;
+    font-family: 'Raleway',sans-serif;
+text-align: left;    
+    font-weight: 700;
+    font-size:7vw;
+    margin-top: -4%;
+    color: #253759;
+}
+.Formcentertext2{
+    font-size: 0px;
+}
+.Formcentertext2mb{
+ 
+    
+    margin-left: 5%;
+    font-family: 'Barlow Condensed';
+text-align: left;    
+    font-weight: 400;
+    font-size:3vw;
+    margin-top: -6%;
+    color: #000000;
+}
+
+.Formcentertext3{
+ 
+    margin-top: 2%;
+    margin-left: 12%;
+    font-family: 'Raleway',sans-serif;
+text-align: left;    
+    font-weight: 500;
+    font-size:1.5vw;
+    font-style: italic;
+    
+    color: #253759;}
+    .Formcentertext4{
+    margin-top: -1.5%;
+        margin-left: 12%;
+        font-family: 'Raleway',sans-serif;
+    text-align: left;    
+        font-weight: 700;
+        font-size:3.5vw;
+        
+        color: rgba(37, 55, 89, 1);
+    }
+
+    .Formcentertext3{
+ 
+        margin-top: 2%;
+        margin-left: 5%;
+        font-size:3vw;
+}
+ .Formcentertext4{
+                margin-top: -4%;
+                margin-left: 5%;
+            font-family: 'Raleway',sans-serif;
+            text-align: left;    
+                font-weight: 700;
+                font-size:6vw;
+                
+                color: rgba(37, 55, 89, 1);
+            }
+        ::placeholder{
+            font-family: 'Barlow Condensed';
+           font-size: 3vw !important;  
+        }
+        .formfnametext1{
+            text-align: left;
+             margin-left: -6%;
+            font-family: 'Raleway',sans-serif;
+            margin-top: 1%;
+            
+            font-size: 3vw;
+            font-weight: 600;
+            color: #D9043D;  
+            }
+                
+            .formfnametext2{
+                text-align: left;
+                 margin-left: -6%;
+                font-family: 'Raleway',sans-serif;
+                margin-top: 1%;
+                
+                font-size: 3vw;
+                font-weight: 600;
+                color: #D9043D;  
+}
+.formfnametext2sal{
+    text-align: left;
+     margin-left: -6%;
+    font-family: 'Raleway',sans-serif;
+    margin-top: 5%;
+    
+    font-size: 3vw;
+    font-weight: 600;
+    color: #D9043D;  
+}
+input[type=text] {
+         width: 100% !important;
+        font-family: 'Raleway',sans-serif;
+        text-align: left;
+        color: white;
+        padding: .2%;
+        margin-top: -1% !important;
+        border: 2px solid #253759 !important;
+        font-weight: 600;
+        cursor: pointer;
+        margin-left: -6%;
+}
+select {
+    width: 100% !important;
+   font-family: 'Raleway',sans-serif;
+   color: white;
+   padding: .2%;
+   margin-top: -1% !important;
+   border: 2px solid #253759 !important;
+   font-weight: 600;
+   cursor: pointer;
+   margin-left: -7% !important;
+}
+ .formfnametext3{
+  text-align: left;
+  margin-left: -6%;
+  font-family: 'Raleway',sans-serif;
+  margin-top: 1%;
+  font-size: 3vw;
+  font-weight: 600;
+  color: #D9043D;  
+ }
+.formfnametext4{
+ text-align: left;
+ margin-left: -6%;
+ font-family: 'Raleway',sans-serif;
+ margin-top: 1%;
+ font-size: 3vw;
+ font-weight: 600;
+ color: #D9043D;  
+}
+.formfnametext5{
+text-align: left;
+margin-left: -6%;
+font-family: 'Raleway',sans-serif;
+margin-top: 1%;
+font-size: 3vw;
+font-weight: 600;
+margin-bottom: -2%;
+color: #D9043D;  
+}    
+.fileupload{
+ width: 100%;
+ padding: 12px;
+ border: 2px solid #253759;
+ border-radius: 0px;
+ box-sizing: border-box;
+ margin-top: 6px;
+ margin-bottom: 16px;
+ resize: vertical;
+ margin-left: -6%;
+} 
+.formfnametext7{
+        text-align: left;
+        margin-left: -6%;
+       font-family: 'Raleway',sans-serif;
+        margin-top: -8%;
+                           
+        font-size: 3vw;
+        font-weight: 600;
+       color: #D9043D;  
+}    
+
+                     
+input[type=submit2] {
+        width: 40%;
+            background: #D9043D;
+                font-family: 'Raleway',sans-serif;
+        text-align: center;
+            color: white;
+            font-size: 3vw;
+            padding: .5%;
+            border: none;
+            font-weight: 600;
+             cursor: pointer;
+            margin-left: 22%;
+          }
+    .dragfile{
+        position: absolute;
+        text-align: left;
+       font-family: 'Raleway',sans-serif;
+        margin-top: -6.3%;
+         margin-left: 32.5%;                  
+        font-size: 3.5vw;
+        font-weight: 600;
+        color: #253759;  
+        
+    }
+    .upload{
+        display:block !important;
+        width:35% !important;
+        padding:1% !important;
+        background-color:#D9043D !important;
+        color:white !important;
+        border-style:none !important;
+        font-family:"Raleway" !important;
+        font-size:4vw !important;
+         font-family: 600 !important;
+    }
+    #html{
+        margin-left: -57%;
+        
+    }
+    .radiobuton{
+        margin-left: 32.3%;
+    }
+    .formfnametexthtml{
+        text-align: left;
+       font-family: 'Raleway',sans-serif;
+                      
+        font-size: 3vw;
+        font-weight: 600;
+       color: #D9043D;  
+       }    
+     
+     .formmmarglast{
+        margin-top: 5%;
+}
+.selectpostion{
+    font-size: 2.2vw;
+    color: #D9043D;
+
+   
+ }
+     
+ .m1,.m2,.m3{
+    width: 0px;
+    visibility: hidden; 
+
+    background: none; 
+    margin-top: 0%;
+    margin-left: 0%;
+    border: 0px  none;
+    border-radius:0px;
+  }
+            
+        }

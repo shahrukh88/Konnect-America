@@ -26,7 +26,6 @@
  margin-top: -2%;
 
     font-family: 'Barlow Condensed',sans-serif;
-    color: #D9043D;
     font-weight: 500;
     text-align: center;
     font-size: 2.6354319180087846vw;
@@ -57,33 +56,44 @@
     padding: 3%;
     margin-top: 10%;
     margin-left: 23%;
-    color: white;
     width: 83%;
     border: 2.5px solid rgba(217, 4, 61, 1);
-background-color: #D9043D;
+    color: rgba(37, 55, 89, 1);
+ 
+  }
+  .scon7:hover{
+    background-color: #D9043D;
+    color: white;
   }
   .centertwotxt1{
-    margin-top: 1%;
+    margin-top: 5%;
     font-family: 'Raleway',sans-serif;
  font-size: 1.1vw;
  font-weight: 700;
  text-align: center;
   }
-  .centertwotxt1{
-    margin-top: 1%;
-    font-family: 'Raleway',sans-serif;
- font-size: 1.1vw;
- font-weight: 700;
- text-align: center;
-  }
+
+
+.scon2:hover,.scon3:hover,.scon4:hover,.scon5:hover,.scon6:hover{
+  background-color: #D9043D;
+  color: white;
+}
   .centertwotxt22{
-    margin-top: 0%;
+    margin-top: -4%;
+    font-family: 'Raleway',sans-serif;
+ font-size: 1.5vw;
+ font-weight: 700;
+ text-align: center; 
+  }
+  .centertwotxt22brek{
+    margin-top: -5%;
     font-family: 'Raleway',sans-serif;
  font-size: 1.5vw;
  font-weight: 700;
  text-align: center; 
   }
   .centertwotxt33{
+    margin-top: -4%;
   font-family: 'Barlow Condensed',sans-serif;
  font-size: 1.2641288433382138vw;
  font-weight: 400;
@@ -93,7 +103,7 @@ background-color: #D9043D;
     padding: 3%;
     margin-top: 10%;
     margin-left: 23%;
-    color: #D9043D;
+    color: rgba(37, 55, 89, 1);
     width: 83%;
     border: 2.5px solid rgba(217, 4, 61, 1);
 
@@ -105,7 +115,7 @@ background-color: #D9043D;
     margin-top: 10%;
     margin-left: 11%;
     
-    color: #D9043D;
+    color: rgba(37, 55, 89, 1);
     width: 81.2%;
     border: 2.5px solid rgba(217, 4, 61, 1);
 
@@ -118,8 +128,8 @@ background-color: #D9043D;
     margin-top: 10%;
     margin-left: -1%;
      width: 83%;
-     color: #D9043D;
-    border: 2.5px solid rgba(217, 4, 61, 1);
+     color: rgba(37, 55, 89, 1);
+     border: 2.5px solid rgba(217, 4, 61, 1);
 
 
   }
@@ -127,7 +137,7 @@ background-color: #D9043D;
   .scon4{
     margin-top: 10%;
     margin-left: 23%;
-    color: #D9043D;
+    color: rgba(37, 55, 89, 1);
     width: 83%;
     border: 2.5px solid rgba(217, 4, 61, 1);
 
@@ -138,7 +148,7 @@ background-color: #D9043D;
     margin-top: 10%;
     margin-left: 11%;
     
-    color: #D9043D;
+    color: rgba(37, 55, 89, 1);
     width: 83%;
     border: 2.5px solid rgba(217, 4, 61, 1);
 
@@ -151,33 +161,18 @@ background-color: #D9043D;
     margin-top: 10%;
     margin-left: -1%;
      width: 83%;
-     color: #D9043D;
-    border: 2.5px solid rgba(217, 4, 61, 1);
+     color: rgba(37, 55, 89, 1);
+     border: 2.5px solid rgba(217, 4, 61, 1);
 
     padding: 3%;
 
   }
-  .scon4:hover{
-    background-color: rgba(217, 4, 61, 1);
-  color: #fff;
-  
-  padding: 3%;}
-  .scon5:hover{
-    background-color: rgba(217, 4, 61, 1);
-  color: #fff;
  
-  padding: 3%; }
-  .scon6:hover{
-    background-color: rgba(217, 4, 61, 1);
-  color: #fff;
-  
-  padding: 3%;
-  }
  
   .ctwolog1{
-    margin-top: 2%;
-    margin-left: 30%;
-    width: 41%;
+    margin-top: 4%;
+    margin-left: 25%;
+    width: 50%;
   }
   .ctwolog2{
     margin-top: 2%;
@@ -185,27 +180,40 @@ background-color: #D9043D;
     width: 37%;
   }
   .ctwolog3{
-    margin-top: 2%;
-    margin-left: 30%;
-    width: 41%;
+    margin-top: 4%;
+    margin-left: 22%;
+    width: 55%;
   }
   
   .centertwotxt2{
-    margin-top: 0%;
+    margin-top: -4%;
     font-family: 'Raleway',sans-serif;
  font-size: 1.5vw;
  font-weight: 700;
  text-align: center;
- color: rgba(37, 55, 89, 1); 
+  }
+  .centertwotxt2brek{
+    margin-top: -5.5%;
+    font-family: 'Raleway',sans-serif;
+ font-size: 1.5vw;
+ font-weight: 700;
+ text-align: center;
   }
   .centertwotxt3{
+    margin-top: -4%;
   font-family: 'Barlow Condensed',sans-serif;
  font-size: 1.2641288433382138vw;
  font-weight: 400;
  text-align: center;
- color: rgba(52, 52, 52, 1); 
   }
-  .arrow{
+  .centertwotxt3al{
+    margin-top: -12.5%;
+  font-family: 'Barlow Condensed',sans-serif;
+ font-size: 1.2641288433382138vw;
+ font-weight: 400;
+ text-align: center; 
+  }
+  .arrowland{
     width: 7.5%;
     margin-top: 14%;
     background-color: #D9043D;
@@ -215,6 +223,27 @@ background-color: #D9043D;
 margin-bottom: 8%;
 cursor: pointer;
  }
+ .arrowland2{
+  width: 7.5%;
+  margin-top: 20.5%;
+  background-color: #D9043D;
+  border-radius: 3.5px  3.5px 3.5px 3.5px;
+  border: 1px solid #D9043D;
+  margin-left: 80%;
+margin-bottom: 8%;
+cursor: pointer;
+
+}
+.arrowland3{
+  width: 7.5%;
+  margin-top: 28%;
+  background-color: #D9043D;
+  border-radius: 3.5px  3.5px 3.5px 3.5px;
+  border: 1px solid #D9043D;
+  margin-left: 80%;
+margin-bottom: 8%;
+cursor: pointer;
+}
  a{
   cursor: pointer;
  }
@@ -226,8 +255,8 @@ cursor: pointer;
 }
 .ctwolog5{
   margin-top: 2%;
-  margin-left: 29%;
-  width: 47%;
+  margin-left: 24%;
+  width: 54%;
 }
 .ctwolog6{
   margin-left: 24%;
@@ -348,6 +377,9 @@ width: 0%;
 .ctwolog6mb{
   width: 0%;
 }
+.ctxt2mbbr{
+  font-size: 0px;
+}
 
 @media only screen and (max-width: 750px) {
   .services{ 
@@ -357,7 +389,7 @@ width: 0%;
    }
    .gbrand{    
     font-size: 6.270863836017569vw;
- 
+    
 }
 .float5-container5{
 
@@ -365,14 +397,23 @@ width: 0%;
   clear: both;
 
 }
+.float5-child5 {
+  width: 0%;
+  float: left;
+ 
+   
+}
+
 .centerlanding22{
   width: 0%;
-  margin-top: -30%;
- 
+  margin-top: -100%;
+
 }
 .centerlanding22mb{
+  position: absolute;
   width: 100%;
- 
+margin-top: 10%;
+
 }
 .scon7{
   width: 0%;
@@ -466,7 +507,7 @@ font-size: 0vw;
 .centertwotxt3{
   font-size: 0vw;
 }
-.arrow{
+.arrowland{
   width: 0%;
    border-radius:0px  3.5px 3.5px 3.5px;
   border: 0px solid #D9043D;
@@ -613,8 +654,8 @@ padding: 3%;
 }
 .ctwolog2mb{
   margin-top: 2%;
-  margin-left: 10%;
-  width: 78.2%;
+  margin-left: 5%;
+  width: 86%;
 }
 .ctwolog3mb{
   margin-top: 2%;
@@ -666,7 +707,7 @@ cursor: pointer;
 .ctwolog4mb{
 margin-top: 2%;
 margin-left: 10%;
-width: 80%;
+width: 82%;
 }
 .ctwolog5mb{
 margin-top: 2%;
@@ -676,8 +717,16 @@ width: 70%;
 .ctwolog6mb{
 margin-left: 14%;
 margin-top: 2%;
-width: 77%;
+width: 72%;
 }
-
+.centertwotxt2brek{
+  font-size: 0px;
+}
+.centertwotxt3al{
+  font-size: 0px;
+}
+.ctxt2brek{
+  font-size: 0px;
+}
 
 }

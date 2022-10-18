@@ -5,7 +5,7 @@
 .brandtext1{
     position: absolute;
     margin-left: 19%;
-    margin-top: 6%;
+    margin-top: 0%;
         font-weight: 700;
         font-size: 2.1vw;
         font-family: 'Raleway',sans-serif;
@@ -18,8 +18,8 @@
 }
 .brandtext2{
     position: absolute;
-    margin-left: 18.5%;
-    margin-top: 8.5%;
+    margin-left: 18.2%;
+    margin-top: 3%;
         font-weight: 600;
         font-size: 1.3vw;
         font-family: 'Raleway',sans-serif;
@@ -34,7 +34,7 @@
 .brandtext3{
     position: absolute;
     margin-left: 17.2%;
-    margin-top: 10.2%;
+    margin-top: 5%;
         font-weight: 500;
         font-size: 1vw;
         font-family: 'Barlow Condensed',sans-serif;
@@ -49,7 +49,7 @@
 .brandtext11{
     position: absolute;
     margin-left: 46.7%;
-    margin-top: 5%;
+    margin-top: -.5%;
         font-weight: 700;
         font-size: 2.8vw;
         font-family: bebas,sans-serif;
@@ -62,8 +62,8 @@
 }
 .brandtext22{
     position: absolute;
-    margin-left: 43.5%;
-    margin-top: 8.5%;
+    margin-left: 44.8%;
+    margin-top: 3%;
         font-weight: 600;
         font-size: 1.3vw;
         font-family: 'Raleway',sans-serif;
@@ -78,7 +78,7 @@
 .brandtext33{
     position: absolute;
     margin-left: 42%;
-    margin-top: 10.2%;
+    margin-top: 5%;
         font-weight: 500;
         font-size: 1vw;
         font-family: 'Barlow Condensed',sans-serif;
@@ -93,7 +93,7 @@
 .brandtext111{
     position: absolute;
     margin-left: 71%;
-     margin-top: 5%;
+     margin-top: -0.5%;
         font-weight: 700;
         font-size: 2.8vw;
         font-family: bebas,sans-serif;
@@ -107,7 +107,7 @@
 .brandtext222{
     position: absolute;
     margin-left: 68%;
-    margin-top: 8.5%;
+    margin-top: 3%;
         font-weight: 600;
         font-size: 1.3vw;
         font-family: 'Raleway',sans-serif;
@@ -122,7 +122,7 @@
 .brandtext333{
     position: absolute;
     margin-left: 66.7%;
-    margin-top: 10.2%;
+    margin-top: 5%;
         font-weight: 500;
         font-size: 1vw;
         font-family: 'Barlow Condensed',sans-serif;
@@ -133,6 +133,29 @@
           ;
     
 
+}
+.blasttext1{
+    padding-top: 20.5%;
+    font-weight: 700;
+    font-size: 2.5vw;
+    font-family: 'Raleway',sans-serif;
+  
+      text-align: center;
+      color:rgba(37, 55, 89, 1);
+}
+.blasttext2{
+    
+    font-weight: 400;
+    font-size: 1.3vw;
+    font-family: 'Barlow Condensed',sans-serif;
+  margin-top: -.8%;
+      text-align: center;
+      color:rgba(0, 0, 0, 1);
+
+}
+.blasttext2mb1,.blasttext2mb2,.blasttext2mb3
+{
+    font-size: 0px;
 }
 .info1{
     margin-left: 18%;
@@ -261,20 +284,330 @@ hr.brandline {
     width: 80%;
     border: 2px solid rgba(217, 4, 61, 1) ;
     
+    margin-top: 14%;
+  }
+  hr.brandlinestratgey {
+    position: absolute;
+    margin-left: 10%;
+    width: 80%;
+    border: 2px solid rgba(217, 4, 61, 1) ;
+    
     margin-top: 19%;
   }
   .arrowright{
 position: absolute;
 width: 2.5%;
-margin-top: 8.3%;
+margin-top: 4.3%;
 margin-left: 35%;
   }
   .arrowright2{
     position: absolute;
     width: 2.5%;
-    margin-top: 8.3%;
+    margin-top: 4.3%;
     margin-left: 60%;
       }
       .brandlast{
         margin-top: -3%;
       }
+@media only screen and (max-width: 750px)
+{
+    .brandtext1{
+        position: relative;
+        margin-left: 2%;
+        margin-top: 4%;
+            font-weight: 700;
+            font-size: 8vw;
+            font-family: 'Raleway',sans-serif;
+          
+        cursor: pointer;
+              text-align: center;
+              color: rgba(217, 4, 61, 1);
+        
+    
+    }
+    .brandtext2{
+        position: relative;
+        margin-left: 2%;
+        margin-top: -5%;
+            font-weight: 600;
+            font-size: 4vw;
+            font-family: 'Raleway',sans-serif;
+          
+        cursor: pointer;
+              text-align: center;
+              color: rgba(37, 55, 89, 1)
+              ;
+        
+    
+    }
+    .brandtext3{
+        position: relative;
+        margin-left: 2%;
+        margin-top: -3%;
+            font-weight: 500;
+            font-size: 2.5vw;
+            font-family: 'Barlow Condensed',sans-serif;
+          
+        cursor: pointer;
+              text-align: center;
+              color: rgba(37, 55, 89, 1)
+              ;
+        
+    
+    }
+    .arrowright{
+        position: relative;
+        width: 4.5%;
+        margin-top: 2%;
+        margin-left: 48%;
+        transform: rotate(90deg);
+}
+.brandtext11{
+    position: relative;
+    margin-left: 2%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 12vw;
+        font-family: bebas,sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(217, 4, 61, 1);
+    
+
+}
+.brandtext22{
+    position: relative;
+    margin-left: 2%;
+    margin-top: -6%;
+        font-weight: 600;
+        font-size: 4vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(37, 55, 89, 1)
+          ;
+    
+
+
+}
+.brandtext33{
+    position: relative;
+    margin-left: 2%;
+    margin-top: -3%;
+        font-weight: 500;
+        font-size: 2.5vw;
+        font-family: 'Barlow Condensed',sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(37, 55, 89, 1)
+          ;
+    
+
+}
+.arrowright2{
+    position: relative;
+    width: 4.5%;
+    margin-top: 2%;
+    margin-left: 48%;
+    transform: rotate(90deg);
+}
+.brandtext111{
+    position: relative;
+    margin-left: 2%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 12vw;
+        font-family: bebas,sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(217, 4, 61, 1);
+    
+
+}
+.brandtext222{
+    position: relative;
+    margin-left: 2%;
+    margin-top: -6%;
+        font-weight: 600;
+        font-size: 4vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(37, 55, 89, 1)
+          ;
+    
+
+
+}
+.brandtext333{
+    position: relative;
+    margin-left: 2%;
+    margin-top: -3%;
+        font-weight: 500;
+        font-size: 2.5vw;
+        font-family: 'Barlow Condensed',sans-serif;
+      
+    cursor: pointer;
+          text-align: center;
+          color: rgba(37, 55, 89, 1)
+          ;
+    
+
+}
+hr.brandline {
+    position: relative;
+    margin-left: 10%;
+    width: 80%;
+    border: 2px solid rgba(217, 4, 61, 1) ;
+    
+    margin-top: 5%;
+  }
+  hr.brandlinestratgey {
+    position: relative;
+    margin-left: 10%;
+    width: 80%;
+    border: 2px solid rgba(217, 4, 61, 1) ;
+    
+    margin-top: 5%;
+  }
+  .blasttext1{
+    padding-top: 0%;
+    margin-top: 7%;
+    font-weight: 700;
+    font-size: 4vw;
+    font-family: 'Raleway',sans-serif;
+  
+      text-align: center;
+      color:rgba(37, 55, 89, 1);
+}
+.blasttext2{
+font-size: 0;
+}
+.blasttext2mb1{
+    margin-top: -3%;
+    font-weight: 400;
+    font-size: 2.8vw;
+    font-family: 'Barlow Condensed',sans-serif;
+  
+      text-align: center;
+      color:rgba(0, 0, 0, 1);
+
+}
+.blasttext2mb2{
+    margin-top: -2%;  
+    font-weight: 400;
+    font-size: 2.8vw;
+    font-family: 'Barlow Condensed',sans-serif;
+      text-align: center;
+      color:rgba(0, 0, 0, 1);
+
+}
+.blasttext2mb3{
+    margin-top: -2%;
+    font-weight: 400;
+    font-size: 2.8vw;
+    font-family: 'Barlow Condensed',sans-serif;
+ 
+      text-align: center;
+      color:rgba(0, 0, 0, 1);
+
+}
+
+.info1{
+    margin-left: 8%;
+    margin-top: 4%;
+        font-weight: 700;
+        font-size: 2.3vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+
+.info2{
+    margin-left: 17%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.3vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+.info2one{
+    margin-left: 5%;
+    margin-top: 0%;
+        font-weight: 700;
+        font-size: 2.3vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+.info3one{
+    margin-left: 24%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.3vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+.info4one{
+    margin-left: 43%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.3vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+.info3{
+    margin-left: 26%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.3vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+.info4{
+    margin-left: 43%;
+    margin-top: 2%;
+        font-weight: 700;
+        font-size: 2.3vw;
+        font-family: 'Raleway',sans-serif;
+      
+    cursor: pointer;
+          text-align: left;
+          color: #253759;
+       
+}
+.infobrand3text1{
+    font-size: 2.3vw;
+ 
+}
+.smarglast{
+    margin-top: 5%;
+}
+}

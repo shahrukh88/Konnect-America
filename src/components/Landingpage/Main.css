@@ -10,14 +10,47 @@
     overflow-X: hidden;
  
     }
-.container{
+
+
+    .btn-primary2 {
+      position:absolute !important;
+      margin-top: -47% !important;
+      margin-left:90% !important;
+      background-color:white !important;
+      width:10% !important;
+      height:5.5vh !important;
+      padding:.3% !important ;
+      padding-left:1% !important ;
+      
+      border: none !important;
+        border-color: white !important; 
+    }    
+    .btn-primary2:hover{
+  border-radius: 2px !important;
+
+    }
+    .container{
     position: relative;
 
 }
-.landing1{
+.landingimg{
     width: 100%;
 
 }
+.landing1mb{
+  width: 0%;
+
+}
+.kalogo{
+position: absolute;
+margin-top: -47.2%;
+width: 18%;
+margin-left: 7.3%;
+
+}
+.kalogo2{
+  width: 0%;
+  }
 .txt1{
   position: absolute;
   margin-top: -33.4%;
@@ -86,15 +119,15 @@ width: 20%;
   color: #FFFFFF;
 }
 .letlink:hover{
-  color: #343434;
-  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.5vw;
 }
 .float-container{
-  margin-top: -.3%;
+  margin-top: -1.2%;
   background-color: rgba(217, 4, 61, 1);
   width: 100%;
 padding-top: .3%;
-padding-bottom: 16%;
+padding-bottom: 13.5%;
 }
 .float-child {
   width: 33%;
@@ -103,20 +136,20 @@ padding-bottom: 16%;
 }  
 .log1{
   width: 8%;
-  margin-top: 15%;
-  margin-left: 25%;
+  margin-top: 10%;
+  margin-left: 38%;
 }
 .ftxt1{
   margin-top: -9%;
-  margin-left: 35.3%;
+  margin-left: 48.3%;
   font-family: 'Raleway',sans-serif;
  font-weight: 600;
   font-size: 1.8vw;
   color: #FFFFFF;
 }
 .ftxt2{
-  margin-top: 1%;
-  margin-left: 36%;
+  margin-top: -1%;
+  margin-left: 49%;
   font-family: 'Barlow Condensed',sans-serif;
 
  font-weight: 400;
@@ -126,7 +159,7 @@ padding-bottom: 16%;
 }
 .log2{
   width: 8%;
-  margin-top: 15.3%;
+  margin-top: 9%;
   margin-left: 16.5%;
 }
 .ftxt3{
@@ -138,7 +171,7 @@ padding-bottom: 16%;
   color: #FFFFFF;
 }
 .ftxt4{
-  margin-top: 1%;
+  margin-top: -1%;
   margin-left: 27.5%;
   font-family: 'Barlow Condensed',sans-serif;
 
@@ -149,20 +182,20 @@ padding-bottom: 16%;
 }
 .log3{
   width: 8%;
-  margin-top: 15%;
-  margin-left: 11%;
+  margin-top: 9%;
+  margin-left: -3%;
 }
 .ftxt5{
   margin-top: -9%;
-  margin-left: 22%;
+  margin-left: 7%;
   font-family: 'Raleway',sans-serif;
  font-weight: 600;
   font-size: 1.8vw;
   color: #FFFFFF;
 }
 .ftxt6{
-  margin-top: 1%;
-  margin-left: 22.5%;
+  margin-top: -1%;
+  margin-left: 7.5%;
   font-family: 'Barlow Condensed',sans-serif;
 
  font-weight: 400;
@@ -173,11 +206,60 @@ padding-bottom: 16%;
 .slidecontainer{
 width: 0%;
 }
+@media only screen and (max-width: 2800px) {
+  .btn-primary2 {
+     height:6.5vh !important;
+   
+  }
+}
+@media only screen and (max-width: 2000px) {
+  .btn-primary2 {
+     height:5.4vh !important;
+   
+  }
+}
+@media only screen and (max-width: 800px) {
+.mtext{
+  font-size: 0px;
+}
+.m1,.m2,.m3{
+  width: 0px;
+}
+.btn-primary2 {
+  position:absolute !important;
+  margin-top: 0% !important;
+  margin-left:0% !important;
+  background-color:white !important;
+  width:0% !important;
+  height:0vh !important;
+  padding:0% !important ;
+  border: none !important;
+}
 
 
+}
 
 
 @media only screen and (max-width: 750px) {
+  .landingimg{
+    width: 0%;
+  
+  } 
+.landing1mb{
+  width: 100%;
+
+}
+  .kalogo{
+    width: 0%;
+    
+    }
+  .kalogo2{
+    position: absolute;
+    margin-top: -63.2%;
+    width: 10%;
+    margin-left: 7.3%;
+    
+    }
   .landing1{
     width: 100%;
 
@@ -197,14 +279,14 @@ width: 0%;
   }
   .logcaursol{
     position: absolute;
-     margin-top: -17%;
+     margin-top: -25%;
      margin-left: -45%;
      width: 10%;
 
    }
    .caursoltxt11{
     position: absolute;
-    margin-top: -19%;
+    margin-top: -26%;
     margin-left: 18.3%;
     font-family: 'Raleway',sans-serif;
    font-weight: 600;
@@ -216,7 +298,7 @@ width: 0%;
   }
   .causrsoltxt2{
 position: absolute;
-margin-top: -10%;
+margin-top: -16%;
     margin-left: 18.3%;
     text-shadow: 2px 2px #D9043D;
     font-family: 'Barlow Condensed',sans-serif;
@@ -228,7 +310,7 @@ margin-top: -10%;
   }  
   .causrsoltxt22{
     position: absolute;
-    margin-top: -5%;
+    margin-top: -10%;
         margin-left: 18.3%;
         font-family: 'Barlow Condensed',sans-serif;
         text-shadow: 2px 2px #D9043D;
@@ -239,7 +321,7 @@ margin-top: -10%;
       }  
       .causrsoltxt222{
         position: absolute;
-        margin-top: 0%;
+        margin-top: -5%;
             margin-left: 18.3%;
             font-family: 'Barlow Condensed',sans-serif;
             text-shadow: 2px 2px #D9043D;
@@ -250,17 +332,17 @@ margin-top: -10%;
           }  
           .txt1{
             position: absolute;
-            margin-top: -35.5%;
+            margin-top: -42.5%;
             font-size: 3vw;
           
           }
           .txt11{
-             margin-top: -32%;
+             margin-top: -39%;
              font-size: 3vw;
           
             }
           .txt2{
-            margin-top: -30%;
+            margin-top: -37%;
             font-size: 8vw;
           }
           .txt3{
@@ -268,13 +350,13 @@ margin-top: -10%;
           }
           .txt4{
             position: absolute;
-            margin-top: -20.5%;
+            margin-top: -27.5%;
             margin-left: 8%;
           font-size: 2.5vw;
           }
           
           .letdiscus{
-            margin-top: -13%;
+            margin-top: -19%;
           font-size: 2vw;
           padding-top: 1%;
           padding-bottom: 1%;

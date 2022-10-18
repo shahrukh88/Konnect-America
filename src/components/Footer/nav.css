@@ -1,0 +1,70 @@
+
+@media (max-width:800px) {
+
+.modal-body2{
+width: 60%;
+margin-left: 40%;
+background-color: white;
+}
+.navbar3{
+    background-color: white;
+    width: 120%;
+    overflow: scroll;
+
+
+}
+.boxmininav{
+ 
+    width: 90%;
+
+margin-top: 10%;
+background: #F8F8F8;
+box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.25);
+color: #343434;
+padding: .5%;
+
+margin-left: 5%;
+border: none;
+}
+.boxmininav:hover{
+    border-top: 2px solid #D9043D;
+    color: #D9043D;
+    
+}
+.bxmtext2{
+    margin-top: 10%;
+    font-size: 4vw;
+        margin-left: 10%;
+        font-weight: 700;
+        font-family: 'Raleway';
+    
+    }
+    .bxmtext2b{
+        margin-top: -3%;
+        font-size: 4vw;
+            margin-left: 10%;
+            font-weight: 700;
+            font-family: 'Raleway';
+        
+        }
+.bxmtext1{
+font-size: 3vw;
+    margin-left: 5%;
+    font-weight: 700;
+    font-family: 'Raleway';
+
+}
+.bxmtext{
+    font-size: 2.8vw;
+    margin-top: -1%;
+    margin-left: 5%;
+    font-weight: 500;
+    font-family: 'Raleway';
+    color: #343434;
+}
+
+.close2nav{
+    margin-top: 5%;
+    width: 8%;
+    margin-left: 80%;
+}}

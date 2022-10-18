@@ -13,6 +13,15 @@
     overflow-X: hidden;
  
     }
+    .gnav{
+      position:"absolute";
+      margin-top:"4%";
+      margin-left:"90%";
+      background-color:"white";
+      width:"10%";
+      height:"7vh";
+      padding:".3%";
+  }
     
 .main-generation{
     position: relative;
@@ -79,3 +88,17 @@ cursor: text;
 background-color: #D9043D;
 cursor: pointer;
 }
+@media only screen and (max-width: 800px) {
+    
+  .fnav {
+    position:absolute !important;
+    margin-top: 0% !important;
+    margin-left:0% !important;
+    background-color:white !important;
+    width:0% !important;
+    height:0vh !important;
+    padding:0% !important ;
+    border: none !important;
+  }
+  
+  }

@@ -10,7 +10,16 @@
     overflow-X: hidden;
  
     }
-.main-container-marketing{
+    .marketnav{
+      position:"absolute";
+      margin-top:"4%";
+      margin-left:"90%";
+      background-color:"white";
+      width:"10%";
+      height:"7vh";
+      padding:".3%";
+  }
+    .main-container-marketing{
 
 }
 
@@ -52,7 +61,7 @@
 }
 .marketbutton1{
     position: absolute;
-    margin-top: 28.5%;
+    margin-top: 25.5%;
     margin-left: 7.6%;
   font-weight: 500;
   font-family: 'Raleway',sans-serif;
@@ -78,7 +87,7 @@
 .bullhorn{
     position: absolute;
     width: 7.5%;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: -85%;
 
 }
@@ -86,7 +95,7 @@
 .website1{
     position: absolute;
  width: 7.5%;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: -72%;
 
 }
@@ -94,14 +103,14 @@
     position: absolute;
 
  width:7.2% ; 
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: -59%;
 }
 .contentmanagement{
     position: absolute;
     width:7.2% ; 
 
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: -46%;
 
 }
@@ -109,7 +118,7 @@
     position: absolute;
  width: 7.7%;
 
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: -33%;
 }
 
@@ -117,7 +126,7 @@
     position: absolute;
 width: 7.2%;
 
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: -20%;
 }
 .markettext4a{
@@ -128,7 +137,7 @@ width: 7.2%;
   }
 .markettext4{
     position: absolute;
-margin-top: -2.5%;
+margin-top: -3%;
     margin-left: 13.2%;
   font-weight: 600;
   font-family: 'Raleway',sans-serif;
@@ -139,20 +148,29 @@ margin-top: -2.5%;
 
 }
 .markettext5{
-    position: absolute;
-margin-top: -4%;
-    margin-left: 26.6%;
-  font-weight: 600;
-  font-family: 'Raleway',sans-serif;
-  font-size: .9vw;
-    text-align: center;
-    color:#fff;
-    text-transform: uppercase;
+  position: absolute;
+  margin-top: -3%;
+      margin-left: 26.5%;
+    font-weight: 600;
+    font-family: 'Raleway',sans-serif;
+    font-size: .9vw;
+      text-align: center;
+      color:#fff;
+      text-transform: uppercase;
+  
 
 }
+.markettext5a{
+    font-size: 0px;
+  
+  }
+  .markettext5b{
+    font-size: 0px;
+  
+  }
 .markettext6{
     position: absolute;
-margin-top: -4%;
+    margin-top: -3%;
     margin-left: 40.8%;
   font-weight: 600;
   font-family: 'Raleway',sans-serif;
@@ -162,9 +180,17 @@ margin-top: -4%;
     text-transform: uppercase;
 
 }
+.markettext6a{
+    font-size: 0px;
+  
+  }
+  .markettext6b{
+    font-size: 0px;
+  
+  }
 .markettext7{
     position: absolute;
-margin-top: -4%;
+    margin-top: -3%;
     margin-left: 53.2%;
   font-weight: 600;
   font-family: 'Raleway',sans-serif;
@@ -174,9 +200,17 @@ margin-top: -4%;
     text-transform: uppercase;
 
 }
+.markettext7a{
+    font-size: 0px;
+  
+  }
+  .markettext7b{
+    font-size: 0px;
+  
+  }
 .markettext8{
     position: absolute;
-margin-top: -4%;
+    margin-top: -3%;
     margin-left: 65.1%;
   font-weight: 600;
   font-family: 'Raleway',sans-serif;
@@ -186,9 +220,17 @@ margin-top: -4%;
     text-transform: uppercase;
 
 }
+.markettext8a{
+    font-size: 0px;
+  
+  }
+  .markettext8b{
+    font-size: 0px;
+  
+  }
 .markettext9{
     position: absolute;
-margin-top: -4%;
+    margin-top: -3%;
     margin-left: 79%;
   font-weight: 600;
   font-family: 'Raleway',sans-serif;
@@ -198,8 +240,34 @@ margin-top: -4%;
     text-transform: uppercase;
 
 }
+.markettext9a{
+    font-size: 0px;
+  
+  }
+  .markettext9b{
+    font-size: 0px;
+  
+  }
+  @media only screen and (max-width: 800px) {
+    
+    .marketnav {
+      position:absolute !important;
+      margin-top: 0% !important;
+      margin-left:0% !important;
+      background-color:white !important;
+      width:0% !important;
+      height:0vh !important;
+      padding:0% !important ;
+      border: none !important;
+    }
+    
+    }
 @media only screen and (max-width: 750px) {
-    .marketimage{
+  .market-center{
+    padding-top: 0%;
+    margin-bottom:-10% ;
+}
+  .marketimage{
         margin-top: 11%;
         margin-left: 10%;
         width: 80%;
@@ -220,8 +288,13 @@ margin-top: -4%;
        font-size: 3vw;
        }
     .marketbutton1{
-        margin-top: 94%;
-      font-size: 3vw;
+        margin-top: 84%;
+      font-size: 2.8vw;
+      padding: 3%;
+      width: 35%;
+      font-weight: 600;
+      font-family: 'Raleway',sans-serif;
+
 
     }
     .market-center{
@@ -307,64 +380,146 @@ margin-top: -41.5%;
 
 }
 .markettext5{
+  font-size: 0px;
+
+}
+.markettext5a{
     position: absolute;
-margin-top: -2.5%;
-    margin-left: 26.6%;
+margin-top: -45%;
+    margin-left: 68%;
   font-weight: 600;
   font-family: 'Raleway',sans-serif;
-  font-size: .9vw;
+  font-size: 3vw;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+
+}
+.markettext5b{
+    position: absolute;
+margin-top: -41.5%;
+    margin-left: 70%;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+  font-size: 3vw;
     text-align: center;
     color:#fff;
     text-transform: uppercase;
 
 }
 .markettext6{
+ font-size: 0px;
+}
+.markettext6a{
     position: absolute;
-margin-top: -2.5%;
-    margin-left: 40.8%;
+margin-top: -45%;
+    margin-left: 43%;
   font-weight: 600;
   font-family: 'Raleway',sans-serif;
-  font-size: .9vw;
+  font-size: 3vw;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+
+}
+.markettext6b{
+    position: absolute;
+margin-top: -41.5%;
+    margin-left: 41%;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+  font-size: 3vw;
     text-align: center;
     color:#fff;
     text-transform: uppercase;
 
 }
 .markettext7{
-    position: absolute;
-margin-top: -2.5%;
-    margin-left: 53.2%;
-  font-weight: 600;
-  font-family: 'Raleway',sans-serif;
-  font-size: .9vw;
-    text-align: center;
-    color:#fff;
-    text-transform: uppercase;
+    font-size: 0px;
+   }
+   .markettext7a{
+       position: absolute;
+   margin-top: -16%;
+       margin-left: 16%;
+     font-weight: 600;
+     font-family: 'Raleway',sans-serif;
+     font-size: 3vw;
+       text-align: center;
+       color:#fff;
+       text-transform: uppercase;
+   
+   }
+   .markettext7b{
+       position: absolute;
+   margin-top: -12.4%;
+       margin-left: 14.3%;
+     font-weight: 600;
+     font-family: 'Raleway',sans-serif;
+     font-size: 3vw;
+       text-align: center;
+       color:#fff;
+       text-transform: uppercase;
+   
+   }
+   .markettext8{
+    font-size: 0px;
+   }
+   .markettext8a{
+       position: absolute;
+   margin-top: -16%;
+       margin-left: 39%;
+     font-weight: 600;
+     font-family: 'Raleway',sans-serif;
+     font-size: 3vw;
+       text-align: center;
+       color:#fff;
+       text-transform: uppercase;
+   
+   }
+   .markettext8b{
+       position: absolute;
+   margin-top: -12.4%;
+       margin-left: 40.4%;
+     font-weight: 600;
+     font-family: 'Raleway',sans-serif;
+     font-size: 3vw;
+       text-align: center;
+       color:#fff;
+       text-transform: uppercase;
+   
+   }
+
+   .markettext9{
+    font-size: 0px;
+   }
+   .markettext9a{
+       position: absolute;
+   margin-top: -16%;
+       margin-left: 74%;
+     font-weight: 600;
+     font-family: 'Raleway',sans-serif;
+     font-size: 3vw;
+       text-align: center;
+       color:#fff;
+       text-transform: uppercase;
+   
+   }
+   .markettext9b{
+       position: absolute;
+   margin-top: -12.4%;
+       margin-left: 69%;
+     font-weight: 600;
+     font-family: 'Raleway',sans-serif;
+     font-size: 3vw;
+       text-align: center;
+       color:#fff;
+       text-transform: uppercase;
+   
+   }
 
 }
-.markettext8{
-    position: absolute;
-margin-top: -2.5%;
-    margin-left: 65.1%;
-  font-weight: 600;
-  font-family: 'Raleway',sans-serif;
-  font-size: .9vw;
-    text-align: center;
-    color:#fff;
-    text-transform: uppercase;
-
+@media only screen and (max-width: 450px) {
+  .market-center{
+    margin-bottom:-35% ;
 }
-.markettext9{
-    position: absolute;
-margin-top: -2.5%;
-    margin-left: 79%;
-  font-weight: 600;
-  font-family: 'Raleway',sans-serif;
-  font-size: .9vw;
-    text-align: center;
-    color:#fff;
-    text-transform: uppercase;
-
-}
-
 }

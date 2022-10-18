@@ -38,4 +38,68 @@
     text-align: left;
     color:rgba(52, 52, 52, 1);
   }
-  
+  .brand4centerservicetext1{
+    padding-top: 63%;
+        font-weight: 700;
+        font-size: 2.5vw;
+        font-family: 'Raleway',sans-serif;
+      
+          text-align: center;
+          color:rgba(37, 55, 89, 1);
+    }
+    .marketingtext3fourmb{
+      font-size: 0px;
+    }
+    .brand4midmargin{
+     margin-top: 26.5%;
+     margin-bottom: 6%;
+    }
+    @media only screen and (max-width: 750px) {
+    .brand4image{
+        position: relative;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .marketingtext3one{
+     font-size: 0px;
+     }
+    .marketingtext3two{
+      font-size: 0px;
+    }
+    .marketingtext3three,.marketingtext3four{
+      font-size: 0px;    }
+    .marketingtext3fourmb{
+      position: relative;
+      margin-top: 2%;
+      margin-left: 7.6%;
+    font-weight: 400;
+    font-family: 'Barlow Condensed',sans-serif;
+    font-size: 3vw;
+      text-align: left;
+      color:rgba(52, 52, 52, 1);
+    }
+    .contentext1{
+      font-size: 0px;
+    }
+    .condevimg,.constraimg{
+      width: 0%;
+    }
+    
+  .brand4centerservicetext1{
+    padding-top: 63%;
+        font-weight: 700;
+        font-size: 4vw;
+        font-family: 'Raleway',sans-serif;
+      
+          text-align: center;
+          color:rgba(37, 55, 89, 1);
+    }
+    .info2one{
+  margin-left: 10%;
+    }
+    .brand4midmargin{
+      margin-top: 7.5%;
+      margin-bottom: 6.5%;
+ 
+  }
+}

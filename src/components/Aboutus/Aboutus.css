@@ -1,23 +1,33 @@
 .aboutmainimage{
-    width: 100%;
+  width: 100%;
 }
+.aboutmainimagemb{
+  width: 0%;
+}
+.kalogoabout{
+  margin-top: -63.2%;
+  width: 18%;
+  margin-left: 5%;
+  
+  }
+
 .abouttext1{
-    
-    
-    position: absolute;
-    
-    margin-top: -19%;
-    margin-left: 10%;
-    font-family: 'Barlow Condensed';
-    
-    font-weight: 400;
-    font-size:2.5vw;
-    
-    color: #FFFFFF;
-       
+  
+  
+  position: absolute;
+  
+  margin-top: -19%;
+  margin-left: 10%;
+  font-family: 'Barlow Condensed';
+  
+  font-weight: 400;
+  font-size:2.5vw;
+  
+  color: #FFFFFF;
+     
 }
 .abouttext2{
-    
+  
 
 
 position: absolute;
@@ -26,7 +36,7 @@ font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 6.2vw;
- 
+
 margin-top: -18%;
 margin-left: 10%;
 
@@ -36,92 +46,247 @@ text-transform: capitalize;
 
 color: #FFFFFF;
 
-       
+     
 }
 .abouttext3{
-    
-    
-    
-    position: absolute;
-     
-    margin-top: -11%;
-    margin-left: 10%;
+  
+  
+  
+  position: absolute;
    
+  margin-top: -11%;
+  margin-left: 10%;
+ 
 text-align: left;    
-    /* Body */
-    
-    font-family: 'Barlow Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.3vw;
-    
-    color: #FFFFFF;
-               
-    }
-
-    .aboutcontanier2{
-        margin-top: 2%;
-    }
-    .columnabout1 {
-        float: left;
-        width: 20%;
-      }
-      
-    .columnabout2 {
-        float: left;
-        width: 80%;
-
-      }
-      /* Clearfix (clear floats) */
-      .rowabout::after {
-        content: "";
-        clear: both;
-        display: table;
-
-      }
-  .aboutimage2{
-    width: 170%;
-  }    
-  .columnabouttext1{
- text-align: left;
-    margin-top: 10.5%;
-    margin-left: 23%;
-          font-weight: 700;
-       font-family: 'Raleway',sans-serif;
-       font-size: 4.5vw;
-       color: #253759;
+  /* Body */
+  
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3vw;
+  
+  color: #FFFFFF;
+             
   }
-  .columnabouttext2{
-    font-family: 'Barlow Condensed';
+  .abouttext3mb1,.abouttext3mb2{
+font-size: 0px;
+  }
+  .aboutcontanier2{
+      margin-top: 2%;
+  }
+  .columnabout1 {
+      float: left;
+      width: 20%;
+    }
+    
+  .columnabout2 {
+      float: left;
+      width: 80%;
 
-    text-align: left;
-       margin-left: 23%;
-             font-weight: 400;
-          font-size: 1.7vw;
-          color: #000000;
-             }
+    }
+    /* Clearfix (clear floats) */
+    .rowabout::after {
+      content: "";
+      clear: both;
+      display: table;
+
+    }
+.aboutimage2{
+  width: 170%;
+}    
+.bgwhite{
+  position: absolute;
+  margin-top: 0%;
+  width: 0%;
+  margin-left: 0%;
+  opacity: 0;
+  
+  background-color: #FFFFFF;
+}
+.columnabouttext1{
+text-align: left;
+  margin-top: 5.5%;
+  margin-left: 23%;
+        font-weight: 700;
+     font-family: 'Raleway',sans-serif;
+     font-size: 4.5vw;
+     color: #253759;
+}
+.columnabouttext2{
+  font-family: 'Barlow Condensed';
+
+  text-align: left;
+     margin-left: 23%;
+           font-weight: 400;
+        font-size: 1.7vw;
+        color: #000000;
+  }
+  .columnabouttext2mb{
+    font-size: 0px;
+  }        
 .columnabouttext3{
-  font-family: 'Raleway',sans-serif;
-          margin-top: 5%;
+font-family: 'Raleway',sans-serif;
+        margin-top: 5%;
 text-align: left;
 margin-left: 23%;
- font-weight: 700;
+font-weight: 700;
 font-size: 2.5vw;
 color: #253759;
-   }
-   .columnabouttext4{
-    font-family: 'Barlow Condensed';
+ }
+ .columnabouttext4{
+  font-family: 'Barlow Condensed';
 
-    text-align: left;
-       margin-left: 23%;
-             font-weight: 400;
-          font-size: 1.9vw;
-          color: #000000;
-             }
+  text-align: left;
+     margin-left: 23%;
+           font-weight: 400;
+        font-size: 1.9vw;
+        color: #000000;
+}
+.columnabouttext4mb{
+font-size: 0px;
+}
 hr.aboutline {
-  margin-top: 4%;
+margin-top: 4%;
 border: 3px solid rgba(217, 4, 61, 1);
 width: 40%;
 margin-left: 24%;
 }
-            
+          
+@media only screen and (max-width: 750px) {
+
+  .kalogoabout{
+    width: 0%; 
+    }
+.aboutmainimage{
+  width: 0%;
+
+}
+.aboutmainimagemb{
+  width: 100%;
+}
+.abouttext1{
+  
+  
+ margin-top: -37%;
+margin-left: 10%;
+ font-size:4vw;
+
+   
+}
+.abouttext2{
+font-size: 9vw;
+
+margin-top: -35%;
+
+   
+}
+.abouttext3{
+font-size: 0px;
+
+}
+.abouttext3mb1{
+position: absolute;
+margin-top: -25%;
+margin-left: 10%;
+text-align: left;    
+font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 3vw;
+color: #FFFFFF;
+           
+}
+.abouttext3mb2{
+  position: absolute;
+  margin-top: -22%;
+  margin-left: 10%;
+text-align: left;    
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw;
+  color: #FFFFFF;
+             
+  }
+
+  .aboutimage2{
+    width: 250%;
+  }  
+.bgwhite{
+  position: absolute;
+  margin-top: -66%;
+  width: 34%;
+  margin-left: 16%;
+  opacity: 0.7;
+  
+  background-color: #FFFFFF;
+}
+  .columnabouttext1{
+    position: absolute;
+    text-align: left;
+       margin-top: 10.5%;
+       margin-left: 0%;
+             font-weight: 700;
+          font-family: 'Raleway',sans-serif;
+          font-size: 7vw;
+          color: #253759;
+     }
+     .columnabouttext2{
+      font-size: 0px;
+     }
+     .columnabouttext2mb{
+      position: absolute;
+
+       font-family: 'Barlow Condensed';
+   margin-top: 18%;
+       text-align: left;
+          margin-left: 0%;
+                font-weight: 400;
+             font-size: 3vw;
+             color: #000000;
+                }
+   .columnabouttext3{
+    position: absolute;
+margin-top: 40%;
+    font-family: 'Raleway',sans-serif;
+                text-align: left;
+   margin-left: 0%;
+    font-weight: 700;
+   font-size: 4vw;
+   color: #253759;
+      }
+      .columnabouttext4{
+        font-size: 0px;
+      }
+      .columnabouttext4mb{
+        position: absolute;
+       font-family: 'Barlow Condensed';
+   margin-top: 50%;
+       text-align: left;
+          margin-left: 0%;
+                font-weight: 400;
+             font-size: 3vw;
+             color: #000000;
+                }
+   hr.aboutline {
+     margin-top: 0%;
+   border: 0px solid rgba(217, 4, 61, 1);
+   width: 0%;
+   margin-left: 24%;
+   }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
